@@ -1,0 +1,58 @@
+[INFO, 19:12:28.173953] : BaudExpress Rev-481, Last updated 2021-02-10
+[INFO, 19:12:28.173972] : Starting BaudOperation for TH012040Q-40008/8720-32C-AC-R/134.141.248.18:5008
+[INFO, 19:12:28.174126] : Trying to establish connection with telnet console 134.141.248.18:5008
+[INFO, 19:12:33.378030] : Successfully established connection with telnet console 134.141.248.18:5008
+[INFO, 19:12:33.378706] : Scanned Info: {
+  "iconsole": "134.141.248.18:5008",
+  "chassis_sn": "TH012040Q-40008",
+  "fan1sn": "L214WJ000C06P",
+  "fan1pn": "700-013684-0100",
+  "fan2sn": "L214WJ000C06Q",
+  "fan2pn": "700-013684-0100",
+  "fan3sn": "L214WJ000C07P",
+  "fan3pn": "700-013684-0100",
+  "fan4sn": "L214WJ000C07P",
+  "fan4pn": "700-013684-0100",
+  "fan5sn": "L214WJ000C07P",
+  "fan5pn": "700-013684-0100",
+  "fan6sn": "L214WJ000C07P",
+  "fan6pn": "700-013684-0100",
+  "psu1sn": "L214WJ000D07P",
+  "psu1pn": "700-013684-0200",
+  "psu2sn": "L214WJ000D07P",
+  "psu2pn": "700-013684-0200"
+}
+[CMD, 19:12:33.378805] : 
+
+[RSP, 19:12:33.627046] : 
+
+
+SLX-OS (SLX)
+SLX login: 
+[CMD, 19:12:33.711894] : admin
+
+[RSP, 19:12:34.116902] : admin
+
+
+Password: 
+[CMD, 19:12:34.133490] : password
+
+[RSP, 19:12:34.648957] : 
+2021/02/11-03:12:40, [SEC-1206], 1269,, INFO, 8720-32C, Login information: User [admin via console] Last Successful Login Time : Thu Feb 11 02:47:14 2021.
+
+#########################################################################
+#  This is a pre-GA image. A pre-GA image might not support all         #
+#  functions. Please upgrade to an official GA SLX-OS image using       #
+[?7hSLX# 
+[CMD, 19:12:34.667774] : term len 0
+
+[RSP, 19:12:35.167031] : term len 0
+Successfully set This Session Terminal Length to  0.
+SLX# 
+[CMD, 19:12:35.192112] : dhcp ztp cancel
+
+[RSP, 19:12:35.624921] : dhcp ztp cancel
+ZTP is not enabled.
+SLX# 
+[CMD, 19:12:35.649811] : show version
+

@@ -1,0 +1,10 @@
+pymongo
+requests
+pyserial
+paho-mqtt
+cherrypy
+smartsheet-python-sdk
+python-libmagic
+opencv-python
+pyzbar
+python-libmagic

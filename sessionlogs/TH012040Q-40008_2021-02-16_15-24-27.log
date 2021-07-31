@@ -1,0 +1,179 @@
+[INFO, 15:24:27.902226] : BaudExpress Rev-481, Last updated 2021-02-10
+[INFO, 15:24:27.902252] : Starting BaudOperation for TH012040Q-40008/SLX9150-48XT-6C-AC-F/10.31.221.215:3010
+[INFO, 15:24:27.902472] : Trying to establish connection with telnet console 10.31.221.215:3010
+[INFO, 15:24:32.917184] : Successfully established connection with telnet console 10.31.221.215:3010
+[INFO, 15:24:32.917504] : Scanned Info: {
+  "iconsole": "10.31.221.215:3010",
+  "chassis_sn": "TH012040Q-40008",
+  "fan1sn": "L214WJ000C06P",
+  "fan1pn": "700-013684-0100",
+  "fan3sn": "L214WJ000C06Q",
+  "fan3pn": "700-013684-0100",
+  "fan2sn": "L214WJ000C07P",
+  "fan2pn": "700-013684-0100",
+  "psu1sn": "L214WJ000D07P",
+  "psu1pn": "700-013684-0200"
+}
+[CMD, 15:24:32.917594] : 
+
+[RSP, 15:24:32.994331] : 
+
+
+SLX-OS (SLX)
+SLX login: 
+[CMD, 15:24:33.049743] : admin
+
+[RSP, 15:24:33.105693] : admin
+
+
+Password: 
+[CMD, 15:24:33.123062] : password
+
+[RSP, 15:24:33.355299] : 
+2021/02/16-23:09:03, [SEC-1206], 2159,, INFO, SLX9150-48XT, Login information: User [admin via console] Last Successful Login Time : Tue Feb 16 23:07:04 2021.
+
+SECURITY WARNING: The default password for at least
+one default account (root, admin and user) have not been changed.
+
+Welcome to the Extreme SLX-OS Software
+admin connected from 127.0.0.1 using console on SLX
+[?7hSLX# 
+[CMD, 15:24:33.370529] : term len 0
+
+[RSP, 15:24:33.623646] : term len 0
+Successfully set This Session Terminal Length to  0.
+SLX# 
+[CMD, 15:24:33.641158] : dhcp ztp cancel
+
+[RSP, 15:24:34.055324] : dhcp ztp cancel
+ZTP is not enabled.
+SLX# 
+[CMD, 15:24:34.074505] : show version
+
+[RSP, 15:24:34.626589] : show version
+
+SLX-OS Operating System Version: 20.1.1
+Copyright (c) 1995-2021 Extreme Networks, Inc.
+Firmware name:      20.1.1
+Build Time:         09:47:07 Feb  6, 2020
+Install Time:       22:32:18 Apr 10, 2020
+Kernel:             4.14.67
+Control Processor:  Intel(R) Atom(TM) CPU C3758 @ 2.20GHz,  8 cores
+Microcode Version:  0x2e
+Memory Size:        System Total: 15632 MB
+System Uptime:      0days 0hrs 16mins 48secs 
+
+Name     Primary/Secondary Versions 
+------------------------------------------
+SLX-OS   20.1.1
+         20.1.1
+
+SLX# 
+[CMD, 15:24:34.641008] : show env power
+
+[RSP, 15:24:35.012786] : show env power
+
+Power Supply #1 is OK
+ARTESYN,700-013917-0000,L257VQ001505P,AirFlow: Port Side Exhaust
+Power Supply #2 is absent
+
+SLX# 
+[CMD, 15:24:35.028970] : show env fan
+
+[RSP, 15:24:35.467088] : show env fan
+Fan 1 is Ok, speed is 11681 RPM
+Fan 2 is Ok, speed is 11681 RPM
+Fan 3 is Ok, speed is 11681 RPM
+Fan 4 is Ok, speed is 11681 RPM
+Fan 5 is Ok, speed is 11841 RPM
+Fan 6 is Ok, speed is 11681 RPM
+
+SLX# 
+[CMD, 15:24:35.485440] : show chassis
+
+[RSP, 15:24:35.920092] : show chassis
+
+Chassis Name:	SLX9150-48XT
+switchType: 3010
+
+FAN  Unit: 1	
+Time Awake:            	0 days
+
+FAN  Unit: 2	
+Time Awake:            	0 days
+
+FAN  Unit: 3	
+Time Awake:            	0 days
+
+FAN  Unit: 4	
+Time Awake:            	0 days
+
+FAN  Unit: 5	
+Time Awake:            	0 days
+
+FAN  Unit: 6	
+Time Awake:            	0 days
+
+POWER SUPPLY  Unit: 1	
+Time Awake:            	0 days
+ID:           		ARTESYN
+Part Num:     		700-013917-0000
+Serial Num:   		L257VQ001505P
+
+CHASSIS/WWN  Unit: 1
+Power Consume Factor: 	0
+Factory Part Num:      	800950-00
+Factory Serial Num:    	1908Q-20179
+Manufacture:           	Day: 19  Month:  2  Year: 2019
+Update:                	Day: 16  Month:  2  Year: 2021
+Time Alive:            	309 days
+Time Awake:            	0 days
+
+
+SLX# 
+[CMD, 15:24:35.939898] : show system
+
+[RSP, 15:24:36.544547] : show system
+Stack MAC                     : 00:04:96:b7:86:fa
+ 
+  -- UNIT 0 --
+Unit Name                     : SLX
+Up Time                       : up 16 min
+Current Time                  : 23:09:07 GMT
+SLX-OS Version                : 20.1.1
+Jumbo Capable                 : yes
+Burned In MAC                 : 00:04:96:b7:86:f0
+Management IP                 : 10.24.114.233
+Management Port Status        : UP
+ 
+  -- Power Supplies --
+PS1 is OK
+PS2 is absent
+ 
+  -- Fan Status --
+Fan 1 is Ok, speed is 11681 RPM
+Fan 2 is Ok, speed is 11681 RPM
+Fan 3 is Ok, speed is 11681 RPM
+Fan 4 is Ok, speed is 11681 RPM
+Fan 5 is Ok, speed is 11841 RPM
+Fan 6 is Ok, speed is 11681 RPM
+
+SLX# 
+[CMD, 15:24:36.560666] : exit
+
+[RSP, 15:24:38.020271] : exit
+2021/02/16-23:09:07, [SEC-3022], 2160,, INFO, SLX9150-48XT, Event: logout, Status: success, Info: Successful logout by user [admin].
+
+
+
+SLX-OS (SLX)
+SLX login: 
+[INFO, 15:24:38.056213] : ====
+
+
+
+[INFO, 15:24:38.056416] : Checking Expected Values swversion : 20.1.1/ 20.2.3_bootloader
+[INFO, 15:24:38.056740] : FAILED swversion: Expected 20.2.3_bootloader/Found 20.1.1 
+[INFO, 15:24:38.057094] : Terminating execution
+[INFO, 15:24:38.057115] : Writing ASBF file
+[INFO, 15:24:38.058848] : Completed, exiting from threads

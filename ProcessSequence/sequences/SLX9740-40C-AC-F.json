@@ -1,0 +1,95 @@
+{
+	"sku": "9740-40C-AC-F",
+	"about": {"image": "SLX9740-40C.png", "text": "SLX 9740-40C-AC-F has 40x100G QSFP28 Ports"},
+	"parseobjs": [
+		{ "key" : "swversion", "regex" : "Firmware.name:(.*)", "expect": "['20.2.1', '20.2.2b', '20.3.2']" },
+		{ "key": "chassis_pn", "regex" : "Factory.Part.Num:(.*)", "expect" :  null},
+		{"key": "chassis_sn", "regex" : "Factory.Serial.Num:(.*)", "expect" : "scanned.chassis_sn", "expect" :
+		null},
+		{"key" : "chassis_type", "regex": "Chassis.Name:(.*)", "expect": null},
+		{"key": "psu_id", "regex": "ID:(.*)", "expect": null},
+		{"key": "psu_pn", "regex": "Part.Num:(.*)", "expect": null},
+		{"key": "psu_sn", "regex": "Serial.Num:(.*)", "expect": null },
+		{"key": "psu_type", "regex": "AirFlow:(.*)", "expect": "Port Side Intake"},
+		{"key": "mac", "regex": "Burned.In.MAC.*:.(..:..:..:..:..:..)", "expect": null},
+		{"key": "fan1speed", "regex": "Fan.1.*is.(.*).RPM", "expect": null},
+		{"key": "fan2speed", "regex": "Fan.2.*is.(.*).RPM", "expect":  null},
+		{"key": "fan3speed", "regex": "Fan.3.*is.(.*).RPM", "expect": null},
+		{"key": "fan4speed", "regex": "Fan.4.*is.(.*).RPM", "expect": null},
+		{"key": "fan5speed", "regex": "Fan.5.*is.(.*).RPM", "expect": null},
+		{"key": "fan6speed", "regex": "Fan.6.*is.(.*).RPM", "expect": null },
+		{"key": "PSU1GOOD", "regex" : "Power.Supply.#1.is(.*)", "expect": "OK"},
+		{"key": "PSU2GOOD", "regex" : "Power.Supply.#2.is(.*)", "expect": "OK"},
+		{"key": "tpmstatus", "regex": "TPM.Provision.status.:(.*)","expect": "Provisioned"}
+	]
+	"commandset": [
+		{"cmd": "\n", "prompt": ["SLX.*login"], "timeout": 10,
+		"usermsg" : {"text" : "Please ensure that unit is powered on", "image" : null}},
+		{"cmd": "\n", "prompt": ["SLX.*login"], "timeout": 10,
+		"usermsg" : {"text" : "Please ensure that unit is powered on", "image" : null}},
+		{"cmd": "admin\n", "prompt": ["Password:"], "timeout": 10},
+		{"cmd": "password\n", "prompt": ["SLX.*#"], "timeout": 10},
+		{"cmd": "term len 0\n", "prompt": ["SLX.*#"], "timeout": 10},
+		{"cmd": "dhcp ztp cancel\n", "prompt": ["SLX.*#"], "timeout": 10},
+		{"cmd": "show version\n", "prompt": ["SLX.*#"], "timeout": 10},
+		{"cmd": "show env power\n", "prompt": ["SLX.*#"], "timeout": 10},
+		{"cmd": "show env fan\n", "prompt": ["SLX.*#"], "timeout": 10},
+		{"cmd": "show env temp\n", "prompt": ["SLX.*#"], "timeout": 10},
+		{"cmd": "show chassis\n", "prompt": ["SLX.*#"], "timeout": 10},
+		{"cmd": "show system\n", "prompt": ["SLX.*#"], "timeout": 10},
+		{"cmd": "write erase\n", "prompt": ["SLX.*login"], "timeout": 10},
+		{"cmd": "reload\n", "prompt": ["n.*yes"], "timeout": 2},
+		{"cmd": "y\n", "prompt": ["System.*initialization.*complete"], "timeout": 180},
+		{"cmd": "\n", "prompt": ["SLX.*login"], "timeout": 10},
+		{"cmd": "admin\n", "prompt": ["Password:"], "timeout": 10},
+		{"cmd": "password\n", "prompt": ["SLX.*#"], "timeout": 10},
+		{"cmd": "term len 0\n", "prompt": ["SLX.*#"], "timeout": 10},
+		{"cmd": "show system\n", "prompt": ["SLX.*#"], "timeout": 10}
+		{"cmd": "exit\n", "prompt": ["SLX.*login"], "timeout": 10}
+	] ,
+	"scanlist" : [
+		{"Console": {"id": "iconsole", "value": "127.0.0.1:5010", "telnet": true }},
+		{"CHASSIS SN": {"id": "chassis_sn", "value": "2109Q-40077", "SerialNumber": true}},
+		{"FAN1 SN": {"id": "fan1sn", "value": "2109Q-40077" }},
+		{"FAN1 PN": {"id": "fan1pn", "value": "700-013684-0100"}},
+		{"FAN2 SN": {"id": "fan2sn", "value": "028Q-20501" }},
+		{"FAN2 PN": {"id": "fan2pn", "value": "700-013684-0100"}},
+		{"FAN3 SN": {"id": "fan3sn", "value": "2028Q-20567"}},
+		{"FAN3 PN": {"id": "fan3pn", "value": "700-013684-0100"}},
+		{"FAN4 SN": {"id": "fan4sn", "value": "2028Q-20591"}},
+		{"FAN4 PN": {"id": "fan4pn", "value": "700-013684-0100"}},
+		{"FAN5 SN": {"id": "fan5sn", "value": "2028Q-20576"}},
+		{"FAN5 PN": {"id": "fan5pn", "value": "700-013684-0100"}},
+		{"FAN6 SN": {"id": "fan6sn", "value": "2028Q-20401"}},
+		{"FAN6 PN": {"id": "fan6pn", "value": "700-013684-0100"}},
+		{"PSU1 SN": {"id": "psu1sn", "value": "FSG059006930GB2003005846"}},
+		{"PSU1 PN": {"id": "psu1pn", "value": "700-013684-0200"}},
+		{"PSU2 SN": {"id": "psu2sn", "value": "FSG059006930GB2003005932"}},
+		{"PSU2 PN": {"id": "psu2pn", "value": "700-013684-0200"}}
+	],
+	"AsBuiltFeedMap": {
+		"top_pn": "chassis_pn",
+		"top_sn": "chassis_sn",
+		"swversion": "swversion",
+		"components": [
+			{"item": "fan", "component_sn" : "scanlist['fan1sn']",
+			"component_pn": "scanlist['fan1pn']" },
+			{"item": "fan", "component_sn": "scanlist['fan2sn']",
+			"component_pn": "scanlist['fan2pn']" },
+			{"item": "fan", "component_sn": "scanlist['fan3sn']",
+			"component_pn": "scanlist['fan3pn']" },
+			{"item": "fan", "component_sn": "scanlist['fan4sn']",
+			"component_pn": "scanlist['fan4pn']" },
+			{"item": "fan", "component_sn": "scanlist['fan5sn']",
+			"component_pn": "scanlist['fan5pn']" },
+			{"item": "fan", "component_sn": "scanlist['fan6sn']",
+			"component_pn": "scanlist['fan6pn']" },
+			{"item": "psu", "component_sn": "scanlist['psu1sn']",
+			"component_pn": "scanlist['psu1pn']" },
+			{"item": "psu", "component_sn": "scanlist['psu2sn']",
+			"component_pn": "scanlist['psu2pn']" }
+		]
+
+	}
+
+}

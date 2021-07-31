@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Schema for structuring Mfg production data into XML, for handoff from
+Mfg logging systems into IT's As Built / SW Repo staging environment.
+
+Created 2017-07-17 by Corey Bielak
+Owned by Ops Infrastructure opsinfrastructure@brocade.com
+(c) Brocade 2017
+-->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="as_built_feed">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="uut" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:all>
+							<xs:element name="top_sn" type="type_sn" />
+							<xs:element name="top_pn" type="type_pn" />
+							<xs:element name="date_time" type="class_timestamp" />
+							<xs:element name="site_code" type="type_site_code" />
+							<xs:element name="components" type="class_component">
+								<xs:unique name="unique_component_idx">
+									<xs:selector xpath="component" />
+									<xs:field xpath="@idx" />
+								</xs:unique>
+							</xs:element>
+						</xs:all>
+						<xs:attribute name="idx" type="type_idx" use="required" />
+						<xs:attribute name="source" type="type_source" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+		<xs:unique name="unique_uut_id">
+			<xs:selector xpath="uut" />
+			<xs:field xpath="@idx" />
+		</xs:unique>
+	</xs:element>
+
+	<!-- Classes and Types -->
+
+	<xs:complexType name="class_component">
+		<xs:sequence>
+			<xs:element name="component" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:all>
+						<xs:element name="component_sn" type="type_sn" />
+						<xs:element name="component_pn" type="type_pn" minOccurs="0" />
+						<xs:element name="parent_sn" type="type_sn" />
+						<xs:element name="parent_pn" type="type_pn" minOccurs="0" />
+						<xs:element name="base_mac" type="type_mac" minOccurs="0" />
+						<xs:element name="base_wwn" type="type_wwn" minOccurs="0" />
+						<xs:element name="oem_sn" type="type_sn" minOccurs="0" />
+						<xs:element name="iuid" type="type_iuid" minOccurs="0" />
+						<xs:element name="licenses" type="class_license" minOccurs="0">
+							<xs:unique name="unique_license_idx">
+								<xs:selector xpath="license" />
+								<xs:field xpath="@idx" />
+							</xs:unique>
+						</xs:element>
+					</xs:all>
+					<xs:attribute name="idx" type="type_idx" use="required" />
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="class_license">
+		<xs:sequence>
+			<xs:element name="license_id" type="type_lid"/>
+			<xs:element name="license" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="key" type="type_license_key" />
+						<xs:choice>
+							<xs:element name="attributes" type="type_license_attr" />
+							<xs:element name="pn" type="type_license_pn" />
+						</xs:choice>
+					</xs:sequence>
+					<xs:attribute name="idx" type="type_idx" use="required" />
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:simpleType name="type_idx">
+		<xs:restriction base="xs:unsignedInt" />
+	</xs:simpleType>
+
+	<xs:simpleType name="type_source">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1" />
+			<xs:maxLength value="250" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="type_sn">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1" />
+			<xs:maxLength value="50" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="type_pn">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1" />
+			<xs:maxLength value="50" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="class_timestamp">
+		<xs:simpleContent>
+			<xs:extension base="type_timestamp">
+				<xs:attribute name="time_zone" type="type_time_zone" use="required" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:simpleType name="type_timestamp">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{8}-[0-9]{6}" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="type_time_zone">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="UTC( ?(([+-])(1[0-4]|0?[0-9])(:(00|15|30|45))?))?" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="type_site_code">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1" />
+			<xs:maxLength value="20" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="type_mac">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="(0x)?[0-9a-fA-F]{12}" />
+			<xs:pattern value="([0-9a-fA-F]{2}-){5}[0-9a-fA-F]{2}" />
+			<xs:pattern value="([0-9a-fA-F]{2}:){5}[0-9a-fA-F]{2}" />
+			<xs:pattern value="([0-9a-fA-F]{4}-){2}[0-9a-fA-F]{4}" />
+			<xs:pattern value="([0-9a-fA-F]{4}\.){2}[0-9a-fA-F]{4}" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="type_wwn">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="(0x)?[0-9a-fA-F]{16}" />
+			<xs:pattern value="([0-9a-fA-F]{2}-){7}[0-9a-fA-F]{2}" />
+			<xs:pattern value="([0-9a-fA-F]{2}:){7}[0-9a-fA-F]{2}" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="type_iuid">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1" />
+			<xs:maxLength value="250" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="type_lid">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1" />
+			<xs:maxLength value="50" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="type_license_key">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1" />
+			<xs:maxLength value="250" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="type_license_attr">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1" />
+			<xs:maxLength value="250" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="type_license_pn">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1" />
+			<xs:maxLength value="50" />
+		</xs:restriction>
+	</xs:simpleType>
+
+</xs:schema>
+

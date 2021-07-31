@@ -1,0 +1,229 @@
+[INFO, 21:43:12.272558] : BaudExpress Rev-481, Last updated 2021-02-10
+[INFO, 21:43:12.272572] : Starting BaudOperation for TH012040Q-40008/8720-32C-AC-R/134.141.248.18:5008
+[INFO, 21:43:12.272776] : Trying to establish connection with telnet console 134.141.248.18:5008
+[INFO, 21:43:17.410018] : Successfully established connection with telnet console 134.141.248.18:5008
+[INFO, 21:43:17.410388] : Scanned Info: {
+  "iconsole": "134.141.248.18:5008",
+  "chassis_sn": "TH012040Q-40008",
+  "fan1sn": "L214WJ000C06P",
+  "fan1pn": "700-013684-0100",
+  "fan2sn": "L214WJ000C06Q",
+  "fan2pn": "700-013684-0100",
+  "fan3sn": "L214WJ000C07P",
+  "fan3pn": "700-013684-0100",
+  "fan4sn": "L214WJ000C07P",
+  "fan4pn": "700-013684-0100",
+  "fan5sn": "L214WJ000C07P",
+  "fan5pn": "700-013684-0100",
+  "fan6sn": "L214WJ000C07P",
+  "fan6pn": "700-013684-0100",
+  "psu1sn": "L214WJ000D07P",
+  "psu1pn": "700-013684-0200",
+  "psu2sn": "L214WJ000D07P",
+  "psu2pn": "700-013684-0200"
+}
+[CMD, 21:43:17.410484] : 
+
+[RSP, 21:43:17.546542] : 
+
+
+SLX-OS (SLX)
+SLX login: 
+[CMD, 21:43:17.612645] : admin
+
+[RSP, 21:43:17.834099] : admin
+
+
+Password: 
+[CMD, 21:43:17.849797] : password
+
+[RSP, 21:43:18.140036] : 
+
+2021/02/11-05:43:23, [SEC-1206], 1277,, INFO, 8720-32C, Login information: User [admin via console] Last Successful Login Time : Thu Feb 11 05:30:16 2021.
+
+#########################################################################
+#  This is a pre-GA image. A pre-GA image might not support all         #
+#  functions. Please upgrade to an official GA SLX-OS image using       #
+#############################################
+[CMD, 21:43:18.158013] : term len 0
+
+[RSP, 21:43:18.233198] : ############################
+Last login: Thu Feb 11 05:30:16 2021 from 127.0.0.1
+Unsuccessful attempts: 0 since last login.
+
+SECURITY WARNING: The default password for at least
+one default account (root, admin and user) have not been changed.
+
+Welcome to the Extreme SLX-OS Software
+admin connected from 127.0.0.1 using console on SLX
+[?7hSLX# 
+[CMD, 21:43:18.256282] : dhcp ztp cancel
+
+[RSP, 21:43:18.489917] : term len 0
+Successfully set This Session Terminal Length to  0.
+SLX# dhcp ztp cancel
+
+[CMD, 21:43:18.504291] : show version
+
+[RSP, 21:43:18.779818] : ZTP is not enabled.
+SLX# show version
+
+[CMD, 21:43:18.797720] : show env power
+
+[RSP, 21:43:19.272975] : 
+SLX-OS Operating System Version: 20.2.3
+Copyright (c) 1995-2021 Extreme Networks, Inc.
+Firmware name:      20.2.3_bootloader
+Build Time:         17:53:01 Dec 10, 2020
+Install Time:       22:45:34 Dec 28, 2020
+Kernel:             4.14.67
+Control Processor:  Intel(R) Atom(TM) CPU C3758 @ 2.20GHz,  8 cores
+Microcode Version:  0x32
+Memory Size:        System Total: 15630 MB
+System Uptime:      0days 3hrs 41mins 29secs 
+
+Name     Primary/Secondary Versions 
+------------------------------------------
+SLX-OS   20.2.3_bootloader
+         20.2.3_bootloader
+
+SLX# show env power
+
+[CMD, 21:43:19.290730] : show env fan
+
+[RSP, 21:43:19.632439] : 
+Power Supply #1 is OK
+ARTESYN,700-013917-0000,L2571500JZ06P,AirFlow: Port Side Intake
+Power Supply #2 is OK
+ARTESYN,700-013917-0000,L2571500KE06P,AirFlow: Port Side Intake
+
+SLX# show env f
+[CMD, 21:43:19.653638] : show chassis
+
+[RSP, 21:43:20.041833] : an
+Fan 1 is Ok, speed is 8960 RPM
+Fan 2 is Ok, speed is 8640 RPM
+Fan 3 is Ok, speed is 8480 RPM
+Fan 4 is Ok, speed is 8640 RPM
+Fan 5 is Ok, speed is 8480 RPM
+Fan 6 is Ok, speed is 8640 RPM
+
+SLX# show chassis
+
+[CMD, 21:43:20.061564] : show system
+
+[RSP, 21:43:20.488820] : 
+Chassis Name:	8720-32C
+switchType: 3200
+
+FAN  Unit: 1	
+Time Awake:            	0 days
+
+FAN  Unit: 2	
+Time Awake:            	0 days
+
+FAN  Unit: 3	
+Time Awake:            	0 days
+
+FAN  Unit: 4	
+Time Awake:            	0 days
+
+FAN  Unit: 5	
+Time Awake:            	0 days
+
+FAN  Unit: 6	
+Time Awake:            	0 days
+
+POWER SUPPLY  Unit: 1	
+Time Awake:            	0 days
+ID:           		ARTESYN
+Part Num:     		700-013917-0000
+Serial Num:   		L2571500JZ06P
+
+POWER SUPPLY  Unit: 2	
+Time Awake:            	0 days
+ID:           		ARTESYN
+Part Num:     		700-013917-0000
+Serial Num:   		L2571500KE06P
+
+CHASSIS/WWN  Unit: 1
+Power Consume Factor: 	0
+Factory Part Num:      	801102-00-AA
+Factory Serial Num:    	TH012052Q-40037
+Manufacture:           	Day: 17  Month: 12  Year: 2020
+Update:                	Day: 28  Month: 12  Year: 2020
+Time Alive:            	0 days
+Time Awake:            	0 days
+
+
+SLX# show system
+
+[CMD, 21:43:20.505885] : show tpm ekcert
+
+[RSP, 21:43:22.424477] : Stack MAC                     : 40:88:2f:f8:84:05
+ 
+  -- UNIT 0 --
+Unit Name                     : SLX
+Up Time                       : up 3:41
+Current Time                  : 05:43:26 GMT
+SLX-OS Version                : 20.2.3_bootloader
+Jumbo Capable                 : yes
+Burned In MAC                 : 40:88:2f:f8:84:00
+Management IP                 : none
+Management Port Status        : UP
+ 
+  -- Power Supplies --
+PS1 is OK
+PS2 is OK
+ 
+  -- Fan Status --
+Fan 1 is Ok, speed is 8960 RPM
+Fan 2 is Ok, speed is 8640 RPM
+Fan 3 is Ok, speed is 8480 RPM
+Fan 4 is Ok, speed is 8640 RPM
+Fan 5 is Ok, speed is 8480 RPM
+Fan 6 is Ok, speed is 8640 RPM
+ 
+  -- TPM  Status --
+TPM Provision status : Provisioned
+
+SLX# show tpm ekcert
+
+[CMD, 21:43:22.442229] : show tpm iakcert
+
+[RSP, 21:43:22.906120] : 
+ SHA1 Fingerprint=36:7A:54:A4:50:B8:39:6D:F1:BE:61:E1:85:B7:31:AB:3A:B5:2E:35
+  Issuer: C=DE, O=Infineon Technologies AG, OU=OPTIGA(TM), CN=Infineon OPTIGA(TM) TPM 2.0 RSA CA 042
+  Not Before: May 8 12:16:43 2020 GMT
+  Not After : May 8 12:16:43 2035 GMT
+SLX# show tpm iakcert
+
+[CMD, 21:43:22.926371] : show tpm idevidcert
+
+[RSP, 21:43:23.421458] :  SHA1 Fingerprint=A6:34:50:00:98:05:33:97:B1:2B:99:8D:B7:23:10:A8:C6:9E:A3:F4
+  Subject: C=US, O=Extreme Networks, OU=Trusted Delivery, CN=8720-32C:TH012052Q-40037
+  Issuer: C=US, O=Extreme Networks, OU=Trusted Delivery, CN=Extreme Networks TD Q-4 Switch LCA 20201104
+  Not Before: Dec 28 22:52:15 2020 GMT
+  Not After : Dec 28 22:51:15 2035 GMT
+SLX# sho
+[CMD, 21:43:23.439990] : exit
+
+[RSP, 21:43:23.961520] : w tpm idevidcert
+ SHA1 Fingerprint=84:93:A2:DC:77:FF:2E:40:33:4E:AE:09:EF:33:60:7A:8B:A6:63:E6
+  Subject: C=US, O=Extreme Networks, OU=Trusted Delivery, CN=8720-32C:TH012052Q-40037
+  Issuer: C=US, O=Extreme Networks, OU=Trusted Delivery, CN=Extreme Networks TD Q-4 Switch LCA 20201104
+  Not Before: Dec 28 22:52:16 2020 GMT
+  Not After : Dec 28 22:51:16 2035 GMT
+SLX# exit
+
+[INFO, 21:43:23.999440] : ====
+
+
+
+[INFO, 21:43:23.999620] : Checking Expected Values swversion : 20.2.3_bootloader/ 20.2.3_bootloader
+[INFO, 21:43:23.999789] : PASSED swversion: Expected 20.2.3_bootloader/Found 20.2.3_bootloader 
+[INFO, 21:43:24.020597] : Checking Expected Values chassis_sn : TH012052Q-40037/ scanned.chassis_sn
+[INFO, 21:43:24.020788] : FAILED chassis_sn: Expected TH012040Q-40008/Found TH012052Q-40037 
+[INFO, 21:43:24.020986] : Terminating execution
+[INFO, 21:43:24.020995] : Writing ASBF file
+[INFO, 21:43:24.024816] : Completed, exiting from threads

@@ -1,0 +1,662 @@
+@media (min-width: 768px) {
+    .form-inline .radio input[type="radio"], 
+    .form-inline .checkbox input[type="checkbox"] {
+     float: left;
+     margin-right: 5px;
+    }
+}
+
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], 
+.radio input[type=radio], .radio-inline input[type=radio] {
+	/* position: relative; */
+	margin-top: -16px;
+	margin-left: -20px;
+
+}
+
+/*#oobarow-col0{
+    width : 100%;
+	overflow-y:auto;
+}*/
+
+.brand {
+	font-family: 'Major Mono Display';
+	font-size: 32px; 
+	color: #FFFFFF;
+	text-align: center;
+	position: relative;
+	top: 25%;
+	
+}
+
+.brandtext {
+	font-family: 'Libre Barcode 128 Text';
+	font-size: 64px;
+	color: #000;
+	text-align: center;
+	position: relative;
+	top: 12%;
+	left: 5%;
+	
+}
+
+.console {
+    font-family : 'Source Code Pro';
+    font-size : 12px;
+    color : #3F0098 ;
+    color : #FFF ;
+    color : #11DC0A;
+    text-align : left;
+
+    margin-top: -10px;
+    /*height : 140px;*/
+	width : 100%;
+	overflow-y:auto;
+
+    background: #000;
+    border: 1px solid #B8B8BA;
+    border-radius: 10px;
+}
+
+.consolewell {
+    margin-top: 2px;
+}
+
+#statusbtn {
+    margin-top: 10px;
+}
+
+
+.console-active {
+    background : #FF9300;
+    font-family : 'Oswald' ;
+}
+
+
+.console-status {
+    font-family : 'Source Code Pro';
+    font-size : 12px;
+    height :28px;
+	width : 99%;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+
+.tconhead-failure {
+    font-family : 'Source Code Pro';
+    font-size : 12px;
+    color : #3F0098 ;
+
+    background : #BE1E1E;
+
+    margin-left: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    height : 20px;
+	width : 95%;
+}
+
+
+
+.tconhead-success {
+
+    font-family : 'Source Code Pro';
+    font-size : 12px;
+    color : #3F0098 ;
+
+    background : #17B00F;
+
+    margin-left: 2px;
+    /*margin-top: 10px;
+    margin-bottom: -10px;
+    */
+    height : 20px;
+	width : 95%;
+}
+
+
+.tconsole {
+
+    font-family : 'Source Code Pro';
+    font-size : 12px;
+    color : #3F0098 ;
+    color : #11DC0A;
+
+    text-align : left;
+    background : #000;
+    margin-left: 2px;
+
+    /*margin-top: 10px;
+    margin-bottom: -10px;
+    */
+
+    height : 140px;
+	width : 99%;
+	overflow-y:auto;
+}
+
+.glyphicon.glyphicon-search {
+    font-size: 12px;
+}
+
+.lgconsole {
+    position : relative;
+    left: -5px;
+    font-family : 'Source Code Pro';
+    font-size : 12px;
+    color : #3F0098 ;
+    color : #11DC0A;
+
+    text-align : left;
+    background : #000;
+    margin-left: 2px;
+
+    margin-top: 10px;
+    margin-bottom: -10px;
+
+
+    height : 580px;
+	width : 98%;
+
+	overflow-y: scroll;
+	overflow-x: scroll;
+
+    border: 1px solid #B8B8BA;
+    border-radius: 10px;
+    margin-top : 1px;
+}
+
+
+
+
+.inpbox-pass {
+    background-color : #11DC0A;
+}
+
+.inpbox-prog {
+    background-color : #FDE129;
+}
+
+
+
+.statusbar {
+    font-family : 'Source Code Pro';
+    font-size : 10px;
+    color : #3F0098 ;
+    text-align : left;
+    height : 40px;
+	width : 100%;
+	overflow-y:auto;
+}
+
+
+
+#consolewell {
+    border: 1px solid #B8B8BA;
+    border-radius: 10px;
+    margin-top : 1px;
+}
+
+.movecell {
+    color: #000;
+	text-align: center;
+	position: relative;
+	font-family: 'Inconsolata';
+	font-size: 16px;
+	width : 40px;
+}
+
+.clock {
+	color: #000;
+	position: relative;
+	left: 85%;
+	top: 20%;
+	font-family: 'Inconsolata';
+	font-size: 22px;
+}
+
+#inpbox {
+    border: 1px solid #B8B8BA;
+    border-radius: 10px;
+}
+
+.navbar {
+	margin-top: 16px;
+	margin-bottom: 10px;
+	background-color : #3F0098;
+	background-color : #EEE;
+	height : 72px;
+	width : 100%;
+}
+
+#tabview-navtabs {
+    background-color : #FFFFFF;
+
+}
+
+.logo-img {
+	position: relative; 
+	top: -65%;
+	/*background-color : #3F0098;*/
+}
+
+.cable {
+	position: relative; 
+	background-color : #3F0098;
+}
+
+
+
+.mainlogo{
+	font-family: 'Major Mono Display', 'cursive';
+	font-size: 48px; 
+	position: relative; 
+	top: -10%;
+}
+
+.maintab {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 16px;	
+}
+
+.jumbotron {
+	font-family: 'Source Sans Pro';
+	/*background-color :  #deeaee;*/
+	/*background-color :  #f2e6ff;*/
+	background-color :  #FFFFFF;
+}
+
+
+.logwell {
+	position: relative; 
+	height : 320px;
+	overflow-y:auto;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 16px;	
+}
+
+.imcenter {
+	display : block;
+	top: 50%;
+	/*position: relative;*/
+    /*left : 5%;
+    right: 5%;
+*/
+	margin-left: auto;
+	margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+
+    width: 50%;
+	max-width: 480px;
+    max-height: 480px;
+
+}
+
+.wellx {
+    background : #FFFFFF;
+
+
+}
+
+
+
+#oobawizardx, #oobainspect {
+    font-family: 'Oswald', monospace;
+	font-size:  20px;
+    margin-top: 2% ;
+    /*background-color :  #3F0098;*/
+}
+
+#navtabs {
+   position : relative ;
+   top : 25%;
+   border-bottom: 1px solid #B8B8BA;
+   border-right: 1px solid #B8B8BA;
+   border-left: 1px solid #B8B8BA;
+   border-radius: 2px;
+   margin-top : 1px;
+}
+
+.serialhead {
+    position: relative;
+    left: 15px;
+    text-position: left;
+}
+
+.tabtitle {
+   font-family: 'Oswald', monospace;
+   text-align: center;
+   font-size: 18px;
+   color: #3F0098;
+}
+
+.fail-row {
+    background : #f2dede;
+    color: #8A0808;
+    border-bottom: 1px solid #424242;
+}
+
+#thead-logstatustable {
+   background : #D8D8D8;
+   border-bottom: 1px solid #424242;
+   border-right: 1px solid #B8B8BA;
+   border-left: 1px solid #B8B8BA;
+   border-radius: 2px;
+}
+
+#logstatustable {
+    font-family: 'Oswald', monospace;
+	font-size: 16px;
+}
+
+
+.abouttext {
+    font-family: 'Lato', monospace;
+	font-size: 8px;
+	text-align: left;
+}
+
+
+.imageblur {
+    filter: blur(5px);
+}
+
+
+.statscounter {
+	height: 60px;
+	width: 240px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.glyphicon {
+    font-size: 24px;
+}
+
+.inplabel {
+	position: relative; 
+	/*padding-bottom: 20px;*/
+	margin-right: 1px;
+	
+	font-family: 'Source Code Pro', monospace;
+	font-size: 16px;	
+}
+
+.sliderlabel {
+	position: relative; 
+	left: 20px;
+	/*padding-bottom: 20px;*/
+	font-family: 'Source Code Pro', monospace;
+	font-size: 16px;	
+}
+
+.slider-handle.extcustom {
+	color: #3F0098;
+}
+
+.prodhead {
+    font-family: 'Lato';
+	font-size: 14x;
+	position: relative;
+    left: 35%;
+    border-color: #ccc;
+	background : "#CCEFFF";
+}
+
+
+body {
+    background:#FFFFFF;
+}
+
+
+.box h3{
+  text-align:center;
+  position:relative;
+  top:80px;
+}
+
+.box {
+  width:70%;
+  height:200px;
+  background:#FFF;
+  margin:40px auto;
+}
+/*==================================================
+ * Effect 1
+ * ===============================================*/
+.effect1 {
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+}
+
+
+section.body {
+    display: block;
+    height : 320px
+}
+
+.actions {
+    position : relative;
+    top : 10px;
+    background : "#CCEFFF";
+    display: block;
+}
+
+.modal-dialog {
+    position: relative;
+    width : 300px;
+	/*margin-left: 50%;*/
+	margin-top: 20% ;
+	opacity : 98%;
+}
+
+.speedselect {
+	position: relative; 
+	margin-top: 25px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+
+.image-preview-input {
+    position: relative;
+	overflow: hidden;
+	margin: 0px;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.image-preview-input input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+
+.image-preview-input-title {
+    margin-left:2px;
+}
+
+.custom-file-upload input[type="file"] {
+    display: none;
+}
+
+
+.custom-file-upload .custom-file-upload1 {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+
+
+.progress {
+    position: relative;
+	height: 25px;
+}
+.progress > .progress-type {
+	position: absolute;
+	left: 0px;
+	font-weight: 800;
+	padding: 3px 30px 2px 10px;
+	color: rgb(255, 255, 255);
+	background-color: rgba(25, 25, 25, 0.2);
+}
+.progress > .progress-completed {
+	position: absolute;
+	right: 0px;
+	font-weight: 800;
+	padding: 3px 10px 2px;
+}
+
+
+.uut {
+	position: relative; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.roundslider {
+	position: relative; 
+	left : 10%;
+	margin-top: 10px; 
+	margin-bottom: 10px;
+}
+
+.rs-range-color  {
+    background-color: #5673E7;
+}
+
+.rs-path-color  {
+    background-color: #000;
+}
+
+.roundslider .rs-handle  {
+    background-color: #3F0098;
+}
+
+.mrow{
+    border-left: 1px solid #B8B8BA;
+    border-right: 1px solid #B8B8BA;
+    border-bottom: 1px solid #B8B8BA;
+    border-top: 1px solid #B8B8BA;
+    height : 200px;
+    position: relative;
+    top : 5%;
+    background-color: #f6f3f8;
+}
+
+.rowd{
+    height : 10px;
+}
+
+
+
+.mrowfail {
+    border-left: 1px solid #B8B8BA;
+    border-right: 1px solid #B8B8BA;
+    border-bottom: 1px solid #B8B8BA;
+    border-top: 1px solid #B8B8BA;
+    height : 40px;
+}
+
+
+.mcell1 {
+    position: relative;
+    top: 15%;
+    color: #000;
+	font-family: 'Roboto', monospace;
+	font-family: 'Libre Barcode 128 Text';
+	font-size: 48px;
+
+    /*background-color: inherit*/
+}
+
+.mcell2 {
+    position: relative;
+    color: #3F0098;
+
+	font-family: 'Inconsolata', monospace;
+	font-size: 28px;
+	font-family: 'Libre Barcode 128 Text';
+	font-size: 48px;
+}
+
+.mcell3 {
+    position: relative;
+    color: #3F0098;
+
+	font-family: 'Inconsolata', monospace;
+	font-size: 9px;
+}
+
+.mcell4 {
+    position: relative;
+    /*top: 12%;*/
+    color: #3F0098;
+	font-family: 'Roboto', monospace;
+	font-size: 20px;
+}
+
+#movelist {
+    position: relative;
+    top: 5%;
+}
+
+.dashboardx {
+    position: relative;
+    left : 5%;
+    top: 20px;
+    font-family: 'Inconsolata', monospace;
+	font-size: 18px;
+}
+
+#appmodalheader {
+    background : #342181;
+    color : #FFE;
+    font-family: 'Roboto', monospace;
+	font-size: 18px;
+	text-align: center;
+}
+
+#scanform {
+    width : 80%
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+#appmodalcontent {
+    width : 640px;
+    position: relative;
+    left: -10%;
+}

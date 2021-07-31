@@ -1,0 +1,5925 @@
+2021-06-17 16:27:19,362 BExpress Sequence Updater
+2021-06-17 16:27:44,866 BExpress Sequence Updater
+2021-06-17 16:31:29,563 BExpress Sequence Updater
+2021-06-17 16:32:11,008 BExpress Sequence Updater
+2021-06-17 16:37:25,829 BExpress Sequence Updater
+2021-06-17 16:37:52,453 BExpress Sequence Updater
+2021-06-17 16:38:07,813 BExpress Sequence Updater
+2021-06-17 16:38:25,999 BExpress Sequence Updater
+2021-06-17 16:48:30,537 BExpress Sequence Updater
+2021-06-17 16:48:41,426 BExpress Sequence Updater
+2021-06-17 16:49:12,505 BExpress Sequence Updater
+2021-06-17 16:49:12,505 Connecting to Mongo Instance at psidb
+2021-06-17 16:49:41,336 BExpress Sequence Updater
+2021-06-17 16:49:41,337 Connecting to Mongo Instance at psidb
+2021-06-17 16:50:57,113 BExpress Sequence Updater
+2021-06-17 16:50:57,113 Connecting to Mongo Instance at psidb
+2021-06-17 16:51:14,939 BExpress Sequence Updater
+2021-06-17 16:51:14,939 Connecting to Mongo Instance at psidb
+2021-06-17 16:52:46,383 BExpress Sequence Updater
+2021-06-17 16:52:46,383 Connecting to Mongo Instance at psidb
+2021-06-17 16:52:46,971 SKU: SLX9150-48XT-6C-AC-F
+2021-06-17 18:13:56,453 BExpress Sequence Updater
+2021-06-17 18:13:56,453 Connecting to Mongo Instance at psidb
+2021-06-17 18:13:56,653 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-18 07:42:41,379 BExpress Sequence Updater
+2021-06-18 07:42:41,380 Connecting to Mongo Instance at psidb
+2021-06-18 07:45:37,591 BExpress Sequence Updater
+2021-06-18 07:45:37,592 Connecting to Mongo Instance at psidb
+2021-06-18 07:46:12,749 BExpress Sequence Updater
+2021-06-18 07:46:12,749 Connecting to Mongo Instance at psidb
+2021-06-18 08:05:21,993 BExpress Sequence Updater
+2021-06-18 08:05:21,993 Connecting to Mongo Instance at psidb
+2021-06-18 08:05:22,092 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-18 08:16:25,490 BExpress Sequence Updater
+2021-06-18 08:16:25,491 Connecting to Mongo Instance at psidb
+2021-06-18 08:16:25,740 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-18 08:16:42,213 BExpress Sequence Updater
+2021-06-18 08:16:42,213 Connecting to Mongo Instance at psidb
+2021-06-18 08:16:42,305 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-18 08:29:22,332 BExpress Sequence Updater
+2021-06-18 08:29:22,332 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:29:22,336 JSON file Sequences.py:
+2021-06-18 08:29:22,336 BExpress Sequence Updater
+2021-06-18 08:29:22,336 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:29:22,337 JSON file SLXBoxes.py:
+2021-06-18 08:29:22,337 BExpress Sequence Updater
+2021-06-18 08:29:22,337 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:29:22,338 JSON file SLX-8720-32C-AC-F.py:
+2021-06-18 08:29:22,339 BExpress Sequence Updater
+2021-06-18 08:29:22,339 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:29:22,340 JSON file AsBuildFeed.py:
+2021-06-18 08:29:22,340 BExpress Sequence Updater
+2021-06-18 08:29:22,340 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:29:22,341 JSON file images:
+2021-06-18 08:29:22,341 BExpress Sequence Updater
+2021-06-18 08:29:22,341 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:29:22,342 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-18 08:29:22,342 BExpress Sequence Updater
+2021-06-18 08:29:22,342 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:29:22,343 JSON file __init__.py:
+2021-06-18 08:29:22,343 BExpress Sequence Updater
+2021-06-18 08:29:22,343 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:29:22,344 JSON file __pycache__:
+2021-06-18 08:29:22,344 BExpress Sequence Updater
+2021-06-18 08:29:22,344 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:29:22,345 JSON file UpdateSequence.py:
+2021-06-18 08:29:22,345 BExpress Sequence Updater
+2021-06-18 08:29:22,345 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:29:22,346 JSON file log:
+2021-06-18 08:30:29,374 BExpress Sequence Updater
+2021-06-18 08:30:29,374 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:30:46,701 BExpress Sequence Updater
+2021-06-18 08:30:46,701 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:30:46,703 BExpress Sequence Updater
+2021-06-18 08:30:46,703 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:30:46,704 BExpress Sequence Updater
+2021-06-18 08:30:46,704 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:30:46,705 BExpress Sequence Updater
+2021-06-18 08:30:46,705 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:30:46,706 BExpress Sequence Updater
+2021-06-18 08:30:46,706 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:30:46,707 BExpress Sequence Updater
+2021-06-18 08:30:46,707 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:30:46,708 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-18 08:30:46,709 BExpress Sequence Updater
+2021-06-18 08:30:46,709 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:30:46,710 BExpress Sequence Updater
+2021-06-18 08:30:46,710 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:30:46,710 BExpress Sequence Updater
+2021-06-18 08:30:46,711 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:30:46,711 BExpress Sequence Updater
+2021-06-18 08:30:46,711 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:33:14,078 BExpress Sequence Updater
+2021-06-18 08:33:14,079 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:33:14,081 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-18 08:33:14,261 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-18 08:35:20,324 BExpress Sequence Updater
+2021-06-18 08:35:20,324 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:35:20,326 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-18 08:35:20,722 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-18 08:35:20,744 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-18 08:40:33,194 BExpress Sequence Updater
+2021-06-18 08:40:33,194 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:40:33,199 JSON file 8720-32C.json:
+2021-06-18 08:41:18,755 BExpress Sequence Updater
+2021-06-18 08:41:18,755 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:41:18,758 JSON file 8720-32C.json:
+2021-06-18 08:42:09,120 BExpress Sequence Updater
+2021-06-18 08:42:09,120 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:42:09,123 JSON file 8720-32C.json:
+2021-06-18 08:42:09,327 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-18 08:42:09,357 SKU: SLX9150-48XT-6C-AC-R was already loaded
+2021-06-18 08:42:09,358 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-18 08:42:09,384 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-18 08:46:21,015 BExpress Sequence Updater
+2021-06-18 08:46:21,015 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:46:21,019 JSON file 8720-32C-AC-F.json:
+2021-06-18 08:46:21,129 JSON file 8720-32C.json:
+2021-06-18 08:46:21,158 SKU: 8720-32C was already loaded
+2021-06-18 08:46:21,158 JSON file 8720-32C-AC-R.json:
+2021-06-18 08:46:21,201 SKU: 8720-32C-AC-R was already loaded
+2021-06-18 08:46:21,202 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-18 08:46:21,239 SKU: SLX9150-48XT-6C-AC-R was already loaded
+2021-06-18 08:46:21,239 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-18 08:46:21,268 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-18 08:46:55,800 BExpress Sequence Updater
+2021-06-18 08:46:55,800 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:46:55,803 JSON file 8720-32C-AC-F.json:
+2021-06-18 08:46:56,065 JSON file 8720-32C.json:
+2021-06-18 08:46:56,092 SKU: 8720-32C was already loaded
+2021-06-18 08:46:56,092 JSON file 8720-32C-AC-R.json:
+2021-06-18 08:46:56,118 SKU: 8720-32C-AC-R was already loaded
+2021-06-18 08:46:56,119 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-18 08:46:56,147 SKU: SLX9150-48XT-6C-AC-R was already loaded
+2021-06-18 08:46:56,147 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-18 08:46:56,172 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-18 08:53:41,424 BExpress Sequence Updater
+2021-06-18 08:53:41,425 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 08:53:41,437 JSON file 8720-32C-AC-F.json:
+2021-06-18 08:53:41,536 SKU: 8720-32C-AC-F was already loaded
+2021-06-18 08:53:41,536 JSON file 8720-32C.json:
+2021-06-18 08:53:41,568 SKU: 8720-32C was already loaded
+2021-06-18 08:53:41,568 JSON file 8720-32C-AC-R.json:
+2021-06-18 08:53:41,599 SKU: 8720-32C-AC-R was already loaded
+2021-06-18 08:53:41,600 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-18 08:53:41,627 SKU: SLX9150-48XT-6C-AC-R was already loaded
+2021-06-18 08:53:41,627 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-18 08:53:41,657 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-18 08:53:41,658 JSON file 8720-32C-DC-R.json:
+2021-06-18 08:53:41,678 JSON file 8720-32C-DC-F.json:
+2021-06-18 09:02:39,831 BExpress Sequence Updater
+2021-06-18 09:02:39,831 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 09:02:39,836 JSON file 8720-32C-AC-F.json:
+2021-06-18 09:02:39,931 SKU: 8720-32C-AC-F was already loaded
+2021-06-18 09:02:39,931 JSON file 8720-32C.json:
+2021-06-18 09:02:39,952 SKU: 8720-32C was already loaded
+2021-06-18 09:02:39,952 JSON file 8720-32C-AC-R.json:
+2021-06-18 09:02:39,973 SKU: 8720-32C-AC-R was already loaded
+2021-06-18 09:02:39,973 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-18 09:02:39,998 SKU: SLX9150-48XT-6C-AC-R was already loaded
+2021-06-18 09:02:39,998 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-18 09:02:40,022 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-18 09:02:40,022 JSON file 8720-32C-DC-R.json:
+2021-06-18 09:02:40,040 SKU: 8720-32C-DC-R was already loaded
+2021-06-18 09:02:40,041 JSON file 8720-32C-DC-F.json:
+2021-06-18 09:02:40,064 SKU: 8720-32C-DC-F was already loaded
+2021-06-18 09:07:53,806 BExpress Sequence Updater
+2021-06-18 09:07:53,807 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 09:07:53,812 JSON file 8720-32C-AC-F.json:
+2021-06-18 09:07:53,898 SKU: 8720-32C-AC-F was already loaded
+2021-06-18 09:07:53,898 JSON file 8720-32C.json:
+2021-06-18 09:07:53,922 SKU: 8720-32C was already loaded
+2021-06-18 09:07:53,922 JSON file 8720-32C-AC-R.json:
+2021-06-18 09:07:53,942 SKU: 8720-32C-AC-R was already loaded
+2021-06-18 09:07:53,942 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-18 09:07:53,966 SKU: SLX9150-48XT-6C-AC-R was already loaded
+2021-06-18 09:07:53,966 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-18 09:07:53,987 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-18 09:07:53,987 JSON file 8720-32C-DC-R.json:
+2021-06-18 09:07:54,008 SKU: 8720-32C-DC-R was already loaded
+2021-06-18 09:07:54,008 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-18 09:07:54,030 JSON file 8720-32C-DC-F.json:
+2021-06-18 09:07:54,052 SKU: 8720-32C-DC-F was already loaded
+2021-06-18 09:16:50,716 BExpress Sequence Updater
+2021-06-18 09:16:50,716 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 09:16:50,720 JSON file 8720-32C-AC-F.json:
+2021-06-18 09:16:50,811 SKU: 8720-32C-AC-F was already loaded
+2021-06-18 09:16:50,811 JSON file 8720-32C.json:
+2021-06-18 09:16:50,835 SKU: 8720-32C was already loaded
+2021-06-18 09:16:50,835 JSON file 8720-32C-AC-R.json:
+2021-06-18 09:16:50,856 SKU: 8720-32C-AC-R was already loaded
+2021-06-18 09:16:50,856 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-18 09:16:50,877 SKU: SLX9150-48XT-6C-AC-R was already loaded
+2021-06-18 09:16:50,877 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-18 09:16:50,899 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-18 09:16:50,899 JSON file 8720-32C-DC-R.json:
+2021-06-18 09:16:50,922 SKU: 8720-32C-DC-R was already loaded
+2021-06-18 09:16:50,922 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-18 09:16:50,944 SKU: SLX9150-48Y-6C-AC-F was already loaded
+2021-06-18 09:16:50,944 JSON file 8720-32C-DC-F.json:
+2021-06-18 09:16:50,963 SKU: 8720-32C-DC-F was already loaded
+2021-06-18 09:29:53,480 BExpress Sequence Updater
+2021-06-18 09:29:53,480 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 09:29:53,485 JSON file 8720-32C-AC-F.json:
+2021-06-18 09:29:53,570 SKU: 8720-32C-AC-F was already loaded
+2021-06-18 09:29:53,570 JSON file 8720-32C.json:
+2021-06-18 09:29:53,593 SKU: 8720-32C was already loaded
+2021-06-18 09:29:53,594 JSON file 8720-32C-AC-R.json:
+2021-06-18 09:29:53,618 SKU: 8720-32C-AC-R was already loaded
+2021-06-18 09:29:53,618 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-18 09:29:53,638 SKU: SLX9150-48XT-6C-AC-R was already loaded
+2021-06-18 09:29:53,638 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-18 09:29:53,659 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-18 09:29:53,659 JSON file 8720-32C-DC-R.json:
+2021-06-18 09:29:53,681 SKU: 8720-32C-DC-R was already loaded
+2021-06-18 09:29:53,681 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-18 09:29:53,702 SKU: SLX9150-48Y-6C-AC-F was already loaded
+2021-06-18 09:29:53,703 JSON file 8720-32C-DC-F.json:
+2021-06-18 09:29:53,728 SKU: 8720-32C-DC-F was already loaded
+2021-06-18 10:51:34,537 BExpress Sequence Updater
+2021-06-18 10:51:34,537 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 10:51:34,591 JSON file 8720-32C-AC-F.json:
+2021-06-18 10:51:34,814 SKU: 8720-32C-AC-F was already loaded
+2021-06-18 10:51:34,815 JSON file 8720-32C.json:
+2021-06-18 10:51:34,845 SKU: 8720-32C was already loaded
+2021-06-18 10:51:34,846 JSON file 8720-32C-AC-R.json:
+2021-06-18 10:51:34,871 SKU: 8720-32C-AC-R was already loaded
+2021-06-18 10:51:34,871 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-18 10:51:34,900 SKU: SLX9150-48XT-6C-AC-R was already loaded
+2021-06-18 10:51:34,900 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-18 10:51:34,923 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-18 10:51:34,924 JSON file 8720-32C-DC-R.json:
+2021-06-18 10:51:34,948 SKU: 8720-32C-DC-R was already loaded
+2021-06-18 10:51:34,949 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-18 10:51:34,983 SKU: SLX9150-48Y-6C-AC-F was already loaded
+2021-06-18 10:51:34,984 JSON file 8720-32C-DC-F.json:
+2021-06-18 10:51:35,011 SKU: 8720-32C-DC-F was already loaded
+2021-06-18 10:56:45,579 BExpress Sequence Updater
+2021-06-18 10:56:45,579 Connecting to Mongo Instance at 10.24.114.242
+2021-06-18 10:56:45,583 JSON file 8720-32C-AC-F.json:
+2021-06-18 10:56:45,669 SKU: 8720-32C-AC-F was already loaded
+2021-06-18 10:56:45,669 JSON file 8720-32C.json:
+2021-06-18 10:56:45,689 SKU: 8720-32C was already loaded
+2021-06-18 10:56:45,690 JSON file 8720-32C-AC-R.json:
+2021-06-18 10:56:45,712 SKU: 8720-32C-AC-R was already loaded
+2021-06-18 10:56:45,712 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-18 10:56:45,731 SKU: SLX9150-48XT-6C-AC-R was already loaded
+2021-06-18 10:56:45,731 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-18 10:56:45,753 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-18 10:56:45,753 JSON file 8720-32C-DC-R.json:
+2021-06-18 10:56:45,776 SKU: 8720-32C-DC-R was already loaded
+2021-06-18 10:56:45,776 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-18 10:56:45,797 SKU: SLX9150-48Y-6C-AC-F was already loaded
+2021-06-18 10:56:45,797 JSON file 8720-32C-DC-F.json:
+2021-06-18 10:56:45,819 SKU: 8720-32C-DC-F was already loaded
+2021-06-21 07:15:21,830 BExpress Sequence Updater
+2021-06-21 07:15:21,830 Connecting to Mongo Instance at 10.24.114.242
+2021-06-21 07:15:21,846 JSON file 8720-32C-AC-F.json:
+2021-06-21 07:20:04,780 BExpress Sequence Updater
+2021-06-21 07:20:04,781 Connecting to Mongo Instance at 10.24.114.242
+2021-06-21 07:20:04,784 JSON file 8720-32C-AC-F.json:
+2021-06-21 07:20:06,990 SKU: 8720-32C-AC-F was already loaded
+2021-06-21 07:20:06,990 JSON file 8720-32C.json:
+2021-06-21 07:20:08,974 SKU: 8720-32C was already loaded
+2021-06-21 07:20:08,974 JSON file 8720-32C-AC-R.json:
+2021-06-21 07:20:09,299 SKU: 8720-32C-AC-R was already loaded
+2021-06-21 07:20:09,300 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-21 07:20:09,475 SKU: SLX9150-48XT-6C-AC-R was already loaded
+2021-06-21 07:20:09,475 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-21 07:20:09,640 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-21 07:20:09,640 JSON file 8720-32C-DC-R.json:
+2021-06-21 07:20:09,853 SKU: 8720-32C-DC-R was already loaded
+2021-06-21 07:20:09,853 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-21 07:20:10,022 SKU: SLX9150-48Y-6C-AC-F was already loaded
+2021-06-21 07:20:10,022 JSON file 8720-32C-DC-F.json:
+2021-06-21 07:20:10,192 SKU: 8720-32C-DC-F was already loaded
+2021-06-21 09:13:53,253 BExpress Sequence Updater
+2021-06-21 09:13:53,253 Connecting to Mongo Instance at 10.24.114.242
+2021-06-21 09:13:53,269 JSON file 8720-32C-AC-F.json:
+2021-06-21 09:13:55,985 SKU: 8720-32C-AC-F was already loaded
+2021-06-21 09:13:55,986 JSON file 8720-32C.json:
+2021-06-21 09:13:56,664 SKU: 8720-32C was already loaded
+2021-06-21 09:13:56,664 JSON file 8720-32C-AC-R.json:
+2021-06-21 09:13:56,825 SKU: 8720-32C-AC-R was already loaded
+2021-06-21 09:13:56,825 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-21 09:13:56,985 SKU: SLX9150-48XT-6C-AC-R was already loaded
+2021-06-21 09:13:56,986 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-21 09:13:57,151 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-21 09:13:57,151 JSON file 8720-32C-DC-R.json:
+2021-06-21 09:13:57,311 SKU: 8720-32C-DC-R was already loaded
+2021-06-21 09:13:57,312 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-21 09:13:58,085 SKU: SLX9150-48Y-6C-AC-F was already loaded
+2021-06-21 09:13:58,085 JSON file 8720-32C-DC-F.json:
+2021-06-21 09:13:58,246 SKU: 8720-32C-DC-F was already loaded
+2021-06-26 11:13:14,001 BExpress Sequence Updater
+2021-06-26 11:13:14,001 Connecting to Mongo Instance at 10.24.114.242
+2021-06-26 11:13:14,015 JSON file 8720-32C-AC-F.json:
+2021-06-26 11:13:14,098 SKU: 8720-32C-AC-F was already loaded
+2021-06-26 11:13:14,098 JSON file 8720-32C.json:
+2021-06-26 11:13:14,121 SKU: 8720-32C was already loaded
+2021-06-26 11:13:14,121 JSON file 8720-32C-AC-R.json:
+2021-06-26 11:13:14,143 SKU: 8720-32C-AC-R was already loaded
+2021-06-26 11:13:14,143 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-26 11:13:14,164 SKU: SLX9150-48XT-6C-AC-R was already loaded
+2021-06-26 11:13:14,164 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-26 11:13:14,205 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-26 11:13:14,206 JSON file 8720-32C-DC-R.json:
+2021-06-26 11:13:14,232 SKU: 8720-32C-DC-R was already loaded
+2021-06-26 11:13:14,233 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-26 11:13:14,258 SKU: SLX9150-48Y-6C-AC-F was already loaded
+2021-06-26 11:13:14,259 JSON file 8720-32C-DC-F.json:
+2021-06-26 11:13:14,500 SKU: 8720-32C-DC-F was already loaded
+2021-06-27 10:48:25,593 BExpress Sequence Updater
+2021-06-27 10:48:25,593 Connecting to Mongo Instance at 10.24.114.242
+2021-06-27 10:48:25,607 JSON file 8720-32C-AC-F.json:
+2021-06-27 10:48:25,718 SKU: 8720-32C-AC-F was already loaded
+2021-06-27 10:48:25,718 JSON file 8720-32C.json:
+2021-06-27 10:48:25,816 SKU: 8720-32C was already loaded
+2021-06-27 10:48:25,817 JSON file 8720-32C-AC-R.json:
+2021-06-27 10:48:25,889 SKU: 8720-32C-AC-R was already loaded
+2021-06-27 10:48:25,889 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-27 10:48:26,157 SKU: SLX9150-48XT-6C-AC-R was already loaded
+2021-06-27 10:48:26,157 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-27 10:48:26,181 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-27 10:48:26,181 JSON file 8720-32C-DC-R.json:
+2021-06-27 10:48:26,210 SKU: 8720-32C-DC-R was already loaded
+2021-06-27 10:48:26,210 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-27 10:48:26,265 SKU: SLX9150-48Y-6C-AC-F was already loaded
+2021-06-27 10:48:26,265 JSON file 8720-32C-DC-F.json:
+2021-06-27 10:48:26,330 SKU: 8720-32C-DC-F was already loaded
+2021-06-28 08:40:30,481 BExpress Sequence Updater
+2021-06-28 08:40:30,481 Connecting to Mongo Instance at 10.24.114.242
+2021-06-28 08:40:30,496 JSON file 8720-32C-AC-F.json:
+2021-06-28 08:40:30,587 SKU: 8720-32C-AC-F was already loaded
+2021-06-28 08:40:30,587 JSON file 8720-32C.json:
+2021-06-28 08:40:30,616 SKU: 8720-32C was already loaded
+2021-06-28 08:40:30,616 JSON file 8720-32C-AC-R.json:
+2021-06-28 08:40:30,642 SKU: 8720-32C-AC-R was already loaded
+2021-06-28 08:40:30,643 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-28 08:40:30,664 SKU: SLX9150-48XT-6C-AC-R was already loaded
+2021-06-28 08:40:30,665 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-28 08:40:30,687 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-28 08:40:30,688 JSON file 8720-32C-DC-R.json:
+2021-06-28 08:40:30,714 SKU: 8720-32C-DC-R was already loaded
+2021-06-28 08:40:30,714 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-28 08:40:30,741 SKU: SLX9150-48Y-6C-AC-F was already loaded
+2021-06-28 08:40:30,742 JSON file 8720-32C-DC-F.json:
+2021-06-28 08:40:30,763 SKU: 8720-32C-DC-F was already loaded
+2021-06-29 09:24:55,091 BExpress Sequence Updater
+2021-06-29 09:24:55,092 Connecting to Mongo Instance at 10.24.114.242
+2021-06-29 09:24:55,096 JSON file 8720-32C-AC-F.json:
+2021-06-29 09:24:55,096 JSON file SLX9740-40C-DC-F.json:
+2021-06-29 09:24:55,096 JSON file SLX9740-40C-DC-R.json:
+2021-06-29 09:24:55,096 JSON file 8720-32C.json:
+2021-06-29 09:24:55,096 JSON file 8720-32C-AC-R.json:
+2021-06-29 09:24:55,096 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-29 09:24:55,096 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-29 09:24:55,097 JSON file SLX9150-48XT-6C-AC-FX.json:
+2021-06-29 09:24:55,097 JSON file 8720-32C-DC-R.json:
+2021-06-29 09:24:55,097 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-29 09:24:55,097 JSON file SLX9740-40C-AC-R.json:
+2021-06-29 09:24:55,097 JSON file SLX9740-40C-AC-F.json:
+2021-06-29 09:24:55,097 JSON file 8720-32C-DC-F.json:
+2021-06-29 09:25:18,737 BExpress Sequence Updater
+2021-06-29 09:25:18,737 Connecting to Mongo Instance at 10.24.114.242
+2021-06-29 09:25:18,740 JSON file 8720-32C-AC-F.json:
+2021-06-29 09:25:18,740 JSON file SLX9740-40C-DC-F.json:
+2021-06-29 09:25:18,740 JSON file SLX9740-40C-DC-R.json:
+2021-06-29 09:25:18,741 JSON file 8720-32C.json:
+2021-06-29 09:25:18,741 JSON file 8720-32C-AC-R.json:
+2021-06-29 09:25:18,741 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-29 09:25:18,741 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-29 09:25:18,741 JSON file SLX9150-48XT-6C-AC-FX.json:
+2021-06-29 09:25:18,741 JSON file 8720-32C-DC-R.json:
+2021-06-29 09:25:18,741 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-29 09:25:18,741 JSON file SLX9740-40C-AC-R.json:
+2021-06-29 09:25:18,741 JSON file SLX9740-40C-AC-F.json:
+2021-06-29 09:25:18,741 JSON file 8720-32C-DC-F.json:
+2021-06-29 09:25:18,828 SKU: SLX9150-48XT-6C-AC-R was already loaded
+2021-06-29 09:43:47,702 BExpress Sequence Updater
+2021-06-29 09:43:47,703 Connecting to Mongo Instance at 10.24.114.242
+2021-06-29 09:43:47,707 JSON file 8720-32C-AC-F.json:
+2021-06-29 09:43:47,707 JSON file SLX9740-40C-DC-F.json:
+2021-06-29 09:43:47,707 JSON file SLX9740-40C-DC-R.json:
+2021-06-29 09:43:47,707 JSON file 8720-32C.json:
+2021-06-29 09:43:47,707 JSON file 8720-32C-AC-R.json:
+2021-06-29 09:43:47,707 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-29 09:43:47,707 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-29 09:43:47,707 JSON file 8720-32C-DC-R.json:
+2021-06-29 09:43:47,708 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-29 09:43:47,708 JSON file SLX9740-40C-AC-R.json:
+2021-06-29 09:43:47,708 JSON file SLX9740-40C-AC-F.json:
+2021-06-29 09:43:47,708 JSON file 8720-32C-DC-F.json:
+2021-06-29 09:43:47,709 JSON SKU SLX9150-48XT-6C-AC-R, {
+  "sku": "SLX9150-48XT-6C-AC-R",
+  "about": {
+    "image": "SLX9150-48XT-8C.png",
+    "text": "SLX9150-48XT-8C has 48x10G Copper ports and 8xQSFP28"
+  },
+  "parseobjs": [
+    {
+      "key": "swversion",
+      "regex": "Firmware.name:(.*)",
+      "expect": "['20.1.1', '20.2.3c']"
+    },
+    {
+      "key": "chassis_pn",
+      "regex": "Factory.Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_sn",
+      "regex": "Factory.Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_type",
+      "regex": "Chassis.Name:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_id",
+      "regex": "ID:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_pn",
+      "regex": "Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_sn",
+      "regex": "Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_type",
+      "regex": "AirFlow:(.*)",
+      "expect": "Port Side Exhaust"
+    },
+    {
+      "key": "mac",
+      "regex": "Burned.In.MAC.*:.(..:..:..:..:..:..)",
+      "expect": null
+    },
+    {
+      "key": "fan1speed",
+      "regex": "Fan.1.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan2speed",
+      "regex": "Fan.2.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan3speed",
+      "regex": "Fan.3.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan4speed",
+      "regex": "Fan.4.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan5speed",
+      "regex": "Fan.5.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan6speed",
+      "regex": "Fan.6.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "PSU1GOOD",
+      "regex": "Power.Supply.#1.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU2GOOD",
+      "regex": "Power.Supply.#2.is(.*)",
+      "expect": "OK"
+    }
+  ],
+  "commandset": [
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "admin\n",
+      "prompt": [
+        "Password:"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "password\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "term len 0\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "dhcp ztp cancel\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show version\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env power\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env fan\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show chassis\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "exit\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    }
+  ],
+  "scanlist": [
+    {
+      "Console": {
+        "id": "iconsole",
+        "value": "10.31.221.215:3010",
+        "telnet": true
+      }
+    },
+    {
+      "CHASSIS SN": {
+        "id": "chassis_sn",
+        "value": "TH012040Q-40008",
+        "SerialNumber": true
+      }
+    },
+    {
+      "FAN1 SN": {
+        "id": "fan1sn",
+        "value": "L214WJ000C06P"
+      }
+    },
+    {
+      "FAN1 PN": {
+        "id": "fan1pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "FAN3 SN": {
+        "id": "fan3sn",
+        "value": "L214WJ000C06Q"
+      }
+    },
+    {
+      "FAN3 PN": {
+        "id": "fan3pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "FAN2 SN": {
+        "id": "fan2sn",
+        "value": "L214WJ000C07P"
+      }
+    },
+    {
+      "FAN2 PN": {
+        "id": "fan2pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "PSU1 SN": {
+        "id": "psu1sn",
+        "value": "L214WJ000D07P"
+      }
+    },
+    {
+      "PSU1 PN": {
+        "id": "psu1pn",
+        "value": "700-013684-0200"
+      }
+    }
+  ],
+  "AsBuiltFeedMap": {
+    "top_pn": "chassis_pn",
+    "top_sn": "chassis_sn",
+    "swversion": "swversion",
+    "components": [
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan1sn']",
+        "component_pn": "scanlist['fan1pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan2sn']",
+        "component_pn": "scanlist['fan2pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan3sn']",
+        "component_pn": "scanlist['fan3pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan4sn']",
+        "component_pn": "scanlist['fan4pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan5sn']",
+        "component_pn": "scanlist['fan5pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan6sn']",
+        "component_pn": "scanlist['fan6pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu1sn']",
+        "component_pn": "scanlist['psu1pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu2sn']",
+        "component_pn": "scanlist['psu2pn']"
+      }
+    ]
+  }
+}
+2021-06-29 09:43:47,804 SKU: SLX9150-48XT-6C-AC-R was already loaded
+2021-06-29 09:45:19,143 BExpress Sequence Updater
+2021-06-29 09:45:19,143 Connecting to Mongo Instance at 10.24.114.242
+2021-06-29 09:45:19,147 JSON file 8720-32C-AC-F.json:
+2021-06-29 09:45:19,147 JSON file SLX9740-40C-DC-F.json:
+2021-06-29 09:45:19,147 JSON file SLX9740-40C-DC-R.json:
+2021-06-29 09:45:19,147 JSON file 8720-32C.json:
+2021-06-29 09:45:19,147 JSON file 8720-32C-AC-R.json:
+2021-06-29 09:45:19,147 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-29 09:45:19,147 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-29 09:45:19,147 JSON file 8720-32C-DC-R.json:
+2021-06-29 09:45:19,147 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-29 09:45:19,147 JSON file SLX9740-40C-AC-R.json:
+2021-06-29 09:45:19,147 JSON file SLX9740-40C-AC-F.json:
+2021-06-29 09:45:19,147 JSON file 8720-32C-DC-F.json:
+2021-06-29 09:45:19,149 JSON SKU SLX9150-48XT-6C-AC-F, {
+  "sku": "SLX9150-48XT-6C-AC-F",
+  "about": {
+    "image": "SLX9150-48XT-8C.png",
+    "text": "SLX9150-48XT-8C has 48x10G Copper ports and 8xQSFP28"
+  },
+  "parseobjs": [
+    {
+      "key": "swversion",
+      "regex": "Firmware.name:(.*)",
+      "expect": "['20.1.1', '20.2.3c']"
+    },
+    {
+      "key": "chassis_pn",
+      "regex": "Factory.Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_sn",
+      "regex": "Factory.Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_type",
+      "regex": "Chassis.Name:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_id",
+      "regex": "ID:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_pn",
+      "regex": "Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_sn",
+      "regex": "Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_type",
+      "regex": "AirFlow:(.*)",
+      "expect": "Port Side Exhaust"
+    },
+    {
+      "key": "mac",
+      "regex": "Burned.In.MAC.*:.(..:..:..:..:..:..)",
+      "expect": null
+    },
+    {
+      "key": "fan1speed",
+      "regex": "Fan.1.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan2speed",
+      "regex": "Fan.2.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan3speed",
+      "regex": "Fan.3.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan4speed",
+      "regex": "Fan.4.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan5speed",
+      "regex": "Fan.5.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan6speed",
+      "regex": "Fan.6.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "PSU1GOOD",
+      "regex": "Power.Supply.#1.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU2GOOD",
+      "regex": "Power.Supply.#2.is(.*)",
+      "expect": "OK"
+    }
+  ],
+  "commandset": [
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "admin\n",
+      "prompt": [
+        "Password:"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "password\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "term len 0\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "dhcp ztp cancel\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show version\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env power\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env fan\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show chassis\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "exit\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    }
+  ],
+  "scanlist": [
+    {
+      "Console": {
+        "id": "iconsole",
+        "value": "10.31.221.215:3010",
+        "telnet": true
+      }
+    },
+    {
+      "CHASSIS SN": {
+        "id": "chassis_sn",
+        "value": "TH012040Q-40008",
+        "SerialNumber": true
+      }
+    },
+    {
+      "FAN1 SN": {
+        "id": "fan1sn",
+        "value": "L214WJ000C06P"
+      }
+    },
+    {
+      "FAN1 PN": {
+        "id": "fan1pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "FAN3 SN": {
+        "id": "fan3sn",
+        "value": "L214WJ000C06Q"
+      }
+    },
+    {
+      "FAN3 PN": {
+        "id": "fan3pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "FAN2 SN": {
+        "id": "fan2sn",
+        "value": "L214WJ000C07P"
+      }
+    },
+    {
+      "FAN2 PN": {
+        "id": "fan2pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "PSU1 SN": {
+        "id": "psu1sn",
+        "value": "L214WJ000D07P"
+      }
+    },
+    {
+      "PSU1 PN": {
+        "id": "psu1pn",
+        "value": "700-013684-0200"
+      }
+    }
+  ],
+  "AsBuiltFeedMap": {
+    "top_pn": "chassis_pn",
+    "top_sn": "chassis_sn",
+    "swversion": "swversion",
+    "components": [
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan1sn']",
+        "component_pn": "scanlist['fan1pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan2sn']",
+        "component_pn": "scanlist['fan2pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan3sn']",
+        "component_pn": "scanlist['fan3pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan4sn']",
+        "component_pn": "scanlist['fan4pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan5sn']",
+        "component_pn": "scanlist['fan5pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan6sn']",
+        "component_pn": "scanlist['fan6pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu1sn']",
+        "component_pn": "scanlist['psu1pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu2sn']",
+        "component_pn": "scanlist['psu2pn']"
+      }
+    ]
+  }
+}
+2021-06-29 09:45:19,318 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-29 09:49:04,642 BExpress Sequence Updater
+2021-06-29 09:49:04,642 Connecting to Mongo Instance at 10.24.114.242
+2021-06-29 09:49:04,644 JSON file 8720-32C-AC-F.json:
+2021-06-29 09:49:04,644 JSON file SLX9740-40C-DC-F.json:
+2021-06-29 09:49:04,644 JSON file SLX9740-40C-DC-R.json:
+2021-06-29 09:49:04,645 JSON file 8720-32C.json:
+2021-06-29 09:49:04,645 JSON file 8720-32C-AC-R.json:
+2021-06-29 09:49:04,645 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-29 09:49:04,645 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-29 09:49:04,645 JSON file 8720-32C-DC-R.json:
+2021-06-29 09:49:04,645 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-29 09:49:04,645 JSON file SLX9740-40C-AC-R.json:
+2021-06-29 09:49:04,645 JSON file SLX9740-40C-AC-F.json:
+2021-06-29 09:49:04,645 JSON file 8720-32C-DC-F.json:
+2021-06-29 09:49:04,646 JSON SKU SLX9150-48XT-6C-AC-F, {
+  "sku": "SLX9150-48XT-6C-AC-F",
+  "about": {
+    "image": "SLX9150-48XT-8C.png",
+    "text": "SLX9150-48XT-8C has 48x10G Copper ports and 8xQSFP28"
+  },
+  "parseobjs": [
+    {
+      "key": "swversion",
+      "regex": "Firmware.name:(.*)",
+      "expect": "['20.1.1', '20.2.3c']"
+    },
+    {
+      "key": "chassis_pn",
+      "regex": "Factory.Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_sn",
+      "regex": "Factory.Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_type",
+      "regex": "Chassis.Name:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_id",
+      "regex": "ID:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_pn",
+      "regex": "Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_sn",
+      "regex": "Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_type",
+      "regex": "AirFlow:(.*)",
+      "expect": "Port Side Exhaust"
+    },
+    {
+      "key": "mac",
+      "regex": "Burned.In.MAC.*:.(..:..:..:..:..:..)",
+      "expect": null
+    },
+    {
+      "key": "fan1speed",
+      "regex": "Fan.1.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan2speed",
+      "regex": "Fan.2.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan3speed",
+      "regex": "Fan.3.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan4speed",
+      "regex": "Fan.4.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan5speed",
+      "regex": "Fan.5.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan6speed",
+      "regex": "Fan.6.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "PSU1GOOD",
+      "regex": "Power.Supply.#1.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU2GOOD",
+      "regex": "Power.Supply.#2.is(.*)",
+      "expect": "OK"
+    }
+  ],
+  "commandset": [
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "admin\n",
+      "prompt": [
+        "Password:"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "password\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "term len 0\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "dhcp ztp cancel\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show version\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env power\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env fan\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show chassis\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "exit\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    }
+  ],
+  "scanlist": [
+    {
+      "Console": {
+        "id": "iconsole",
+        "value": "10.31.221.215:3010",
+        "telnet": true
+      }
+    },
+    {
+      "CHASSIS SN": {
+        "id": "chassis_sn",
+        "value": "TH012040Q-40008",
+        "SerialNumber": true
+      }
+    },
+    {
+      "FAN1 SN": {
+        "id": "fan1sn",
+        "value": "2052Q-41271"
+      }
+    },
+    {
+      "FAN1 PN": {
+        "id": "fan1pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "FAN2 SN": {
+        "id": "fan2sn",
+        "value": "2052Q-41272"
+      }
+    },
+    {
+      "FAN2 PN": {
+        "id": "fan2pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "FAN3 SN": {
+        "id": "fan3sn",
+        "value": "2052Q-41273"
+      }
+    },
+    {
+      "FAN3 PN": {
+        "id": "fan3pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "FAN4 SN": {
+        "id": "fan4sn",
+        "value": "2052Q-41274"
+      }
+    },
+    {
+      "FAN4 PN": {
+        "id": "fan4pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "FAN5 SN": {
+        "id": "fan5sn",
+        "value": "2052Q-41275"
+      }
+    },
+    {
+      "FAN5 PN": {
+        "id": "fan5pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "FAN6 SN": {
+        "id": "fan6sn",
+        "value": "2052Q-41276"
+      }
+    },
+    {
+      "FAN6 PN": {
+        "id": "fan6pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "PSU1 SN": {
+        "id": "psu1sn",
+        "value": "L2571500JF06P"
+      }
+    },
+    {
+      "PSU1 PN": {
+        "id": "psu1pn",
+        "value": "XN-DCPWR-750W-F"
+      }
+    },
+    {
+      "PSU2 SN": {
+        "id": "psu2sn",
+        "value": "L2571500K306P"
+      }
+    },
+    {
+      "PSU2 PN": {
+        "id": "psu2pn",
+        "value": "XN-DCPWR-750W-F"
+      }
+    }
+  ],
+  "AsBuiltFeedMap": {
+    "top_pn": "chassis_pn",
+    "top_sn": "chassis_sn",
+    "swversion": "swversion",
+    "components": [
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan1sn']",
+        "component_pn": "scanlist['fan1pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan2sn']",
+        "component_pn": "scanlist['fan2pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan3sn']",
+        "component_pn": "scanlist['fan3pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan4sn']",
+        "component_pn": "scanlist['fan4pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan5sn']",
+        "component_pn": "scanlist['fan5pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan6sn']",
+        "component_pn": "scanlist['fan6pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu1sn']",
+        "component_pn": "scanlist['psu1pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu2sn']",
+        "component_pn": "scanlist['psu2pn']"
+      }
+    ]
+  }
+}
+2021-06-29 09:49:04,726 SKU: SLX9150-48XT-6C-AC-F was already loaded
+2021-06-29 13:21:03,309 BExpress Sequence Updater
+2021-06-29 13:21:03,309 Connecting to Mongo Instance at 10.24.114.242
+2021-06-29 13:21:03,314 JSON file 8720-32C-AC-F.json:
+2021-06-29 13:21:03,314 JSON file SLX9740-40C-DC-F.json:
+2021-06-29 13:21:03,314 JSON file SLX9740-40C-DC-R.json:
+2021-06-29 13:21:03,314 JSON file 8720-32C.json:
+2021-06-29 13:21:03,314 JSON file 8720-32C-AC-R.json:
+2021-06-29 13:21:03,314 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-29 13:21:03,314 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-29 13:21:03,314 JSON file 8720-32C-DC-R.json:
+2021-06-29 13:21:03,314 JSON file SLX9740-80C-AC-F.json:
+2021-06-29 13:21:03,315 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-29 13:21:03,315 JSON file SLX9740-40C-AC-R.json:
+2021-06-29 13:21:03,315 JSON file SLX9740-40C-AC-F.json:
+2021-06-29 13:21:03,315 JSON file 8720-32C-DC-F.json:
+2021-06-29 13:21:03,316 JSON SKU 9740-80C-AC-F, {
+  "sku": "9740-80C-AC-F",
+  "about": {
+    "image": "SLX9740-80C.png",
+    "text": "SLX 9740-80C-AC-F has 80x100G QSFP28 Ports"
+  },
+  "parseobjs": [
+    {
+      "key": "swversion",
+      "regex": "Firmware.name:(.*)",
+      "expect": "['20.2.1slxosx_linux_upgrade_golden_eagle_dev_200429_1800']"
+    },
+    {
+      "key": "chassis_pn",
+      "regex": "Factory.Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_sn",
+      "regex": "Factory.Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_type",
+      "regex": "Chassis.Name:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_id",
+      "regex": "ID:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_pn",
+      "regex": "Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_sn",
+      "regex": "Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_type",
+      "regex": "AirFlow:(.*)",
+      "expect": "Port Side Intake"
+    },
+    {
+      "key": "mac",
+      "regex": "Burned.In.MAC.*:.(..:..:..:..:..:..)",
+      "expect": null
+    },
+    {
+      "key": "fan1speed",
+      "regex": "Fan.1.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan2speed",
+      "regex": "Fan.2.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan3speed",
+      "regex": "Fan.3.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan4speed",
+      "regex": "Fan.4.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "PSU1GOOD",
+      "regex": "Power.Supply.#1.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU2GOOD",
+      "regex": "Power.Supply.#2.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU3GOOD",
+      "regex": "Power.Supply.#3.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU4GOOD",
+      "regex": "Power.Supply.#4.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "tpmstatus",
+      "regex": "TPM.Provision.status.:(.*)",
+      "expect": "Provisioned"
+    }
+  ],
+  "commandset": [
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "admin\n",
+      "prompt": [
+        "Password:"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "password\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "term len 0\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "dhcp ztp cancel\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show version\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env power\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env fan\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env temp\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show chassis\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "write erase\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "reload\n",
+      "prompt": [
+        "n.*yes"
+      ],
+      "timeout": 2
+    },
+    {
+      "cmd": "y\n",
+      "prompt": [
+        "System.*initialization.*complete"
+      ],
+      "timeout": 180
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "admin\n",
+      "prompt": [
+        "Password:"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "password\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "term len 0\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "exit\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    }
+  ],
+  "scanlist": [
+    {
+      "Console": {
+        "id": "iconsole",
+        "value": "127.0.0.1:5010",
+        "telnet": true
+      }
+    },
+    {
+      "CHASSIS SN": {
+        "id": "chassis_sn",
+        "value": "2109Q-40077",
+        "SerialNumber": true
+      }
+    },
+    {
+      "FAN1 SN": {
+        "id": "fan1sn",
+        "value": "2109Q-40077"
+      }
+    },
+    {
+      "FAN1 PN": {
+        "id": "fan1pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "FAN2 SN": {
+        "id": "fan2sn",
+        "value": "028Q-20501"
+      }
+    },
+    {
+      "FAN2 PN": {
+        "id": "fan2pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "FAN3 SN": {
+        "id": "fan3sn",
+        "value": "2028Q-20567"
+      }
+    },
+    {
+      "FAN3 PN": {
+        "id": "fan3pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "FAN4 SN": {
+        "id": "fan4sn",
+        "value": "2028Q-20591"
+      }
+    },
+    {
+      "FAN4 PN": {
+        "id": "fan4pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "PSU1 SN": {
+        "id": "psu1sn",
+        "value": "FSG059006930GB2003005846"
+      }
+    },
+    {
+      "PSU1 PN": {
+        "id": "psu1pn",
+        "value": "700-013684-0200"
+      }
+    },
+    {
+      "PSU2 SN": {
+        "id": "psu2sn",
+        "value": "FSG059006930GB2003005932"
+      }
+    },
+    {
+      "PSU2 PN": {
+        "id": "psu2pn",
+        "value": "700-013684-0200"
+      }
+    },
+    {
+      "PSU3 SN": {
+        "id": "psu3sn",
+        "value": "FSG059006930GB2003005846"
+      }
+    },
+    {
+      "PSU3 PN": {
+        "id": "psu3pn",
+        "value": "700-013684-0200"
+      }
+    },
+    {
+      "PSU4 SN": {
+        "id": "psu4sn",
+        "value": "FSG059006930GB2003005932"
+      }
+    },
+    {
+      "PSU4 PN": {
+        "id": "psu4pn",
+        "value": "700-013684-0200"
+      }
+    }
+  ],
+  "AsBuiltFeedMap": {
+    "top_pn": "chassis_pn",
+    "top_sn": "chassis_sn",
+    "swversion": "swversion",
+    "components": [
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan1sn']",
+        "component_pn": "scanlist['fan1pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan2sn']",
+        "component_pn": "scanlist['fan2pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan3sn']",
+        "component_pn": "scanlist['fan3pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan4sn']",
+        "component_pn": "scanlist['fan4pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu1sn']",
+        "component_pn": "scanlist['psu1pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu2sn']",
+        "component_pn": "scanlist['psu2pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu3sn']",
+        "component_pn": "scanlist['psu3pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu4sn']",
+        "component_pn": "scanlist['psu4pn']"
+      }
+    ]
+  }
+}
+2021-06-29 13:21:03,392 SKU: 9740-80C-AC-F was already loaded
+2021-06-29 13:30:02,245 BExpress Sequence Updater
+2021-06-29 13:30:02,245 Connecting to Mongo Instance at 10.24.114.242
+2021-06-29 13:30:02,247 JSON file 8720-32C-AC-F.json:
+2021-06-29 13:30:02,247 JSON file SLX9740-40C-DC-F.json:
+2021-06-29 13:30:02,247 JSON file SLX9740-40C-DC-R.json:
+2021-06-29 13:30:02,247 JSON file 8720-32C.json:
+2021-06-29 13:30:02,247 JSON file 8720-32C-AC-R.json:
+2021-06-29 13:30:02,248 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-29 13:30:02,248 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-29 13:30:02,248 JSON file 8720-32C-DC-R.json:
+2021-06-29 13:30:02,248 JSON file SLX9740-80C-AC-F.json:
+2021-06-29 13:30:02,248 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-29 13:30:02,248 JSON file SLX9740-40C-AC-R.json:
+2021-06-29 13:30:02,248 JSON file SLX9740-40C-AC-F.json:
+2021-06-29 13:30:02,248 JSON file 8720-32C-DC-F.json:
+2021-06-29 13:30:02,249 JSON SKU 9740-80C-AC-F, {
+  "sku": "9740-80C-AC-F",
+  "about": {
+    "image": "SLX9740-80C.png",
+    "text": "SLX 9740-80C-AC-F has 80x100G QSFP28 Ports"
+  },
+  "parseobjs": [
+    {
+      "key": "swversion",
+      "regex": "Firmware.name:(.*)",
+      "expect": "['20.2.1slxosx_linux_upgrade_golden_eagle_dev_200429_1800']"
+    },
+    {
+      "key": "chassis_pn",
+      "regex": "Factory.Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_sn",
+      "regex": "Factory.Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_type",
+      "regex": "Chassis.Name:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_id",
+      "regex": "ID:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_pn",
+      "regex": "Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_sn",
+      "regex": "Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_type",
+      "regex": "AirFlow:(.*)",
+      "expect": "Port Side Intake"
+    },
+    {
+      "key": "mac",
+      "regex": "Burned.In.MAC.*:.(..:..:..:..:..:..)",
+      "expect": null
+    },
+    {
+      "key": "fan1speed",
+      "regex": "Fan.1.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan2speed",
+      "regex": "Fan.2.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan3speed",
+      "regex": "Fan.3.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan4speed",
+      "regex": "Fan.4.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "PSU1GOOD",
+      "regex": "Power.Supply.#1.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU2GOOD",
+      "regex": "Power.Supply.#2.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU3GOOD",
+      "regex": "Power.Supply.#3.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU4GOOD",
+      "regex": "Power.Supply.#4.is(.*)",
+      "expect": "OK"
+    }
+  ],
+  "commandset": [
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "admin\n",
+      "prompt": [
+        "Password:"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "password\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "term len 0\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "dhcp ztp cancel\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show version\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env power\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env fan\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env temp\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show chassis\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "write erase\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "reload\n",
+      "prompt": [
+        "n.*yes"
+      ],
+      "timeout": 2
+    },
+    {
+      "cmd": "y\n",
+      "prompt": [
+        "System.*initialization.*complete"
+      ],
+      "timeout": 180
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "admin\n",
+      "prompt": [
+        "Password:"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "password\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "term len 0\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "exit\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    }
+  ],
+  "scanlist": [
+    {
+      "Console": {
+        "id": "iconsole",
+        "value": "127.0.0.1:5010",
+        "telnet": true
+      }
+    },
+    {
+      "CHASSIS SN": {
+        "id": "chassis_sn",
+        "value": "2109Q-40077",
+        "SerialNumber": true
+      }
+    },
+    {
+      "FAN1 SN": {
+        "id": "fan1sn",
+        "value": "2109Q-40077"
+      }
+    },
+    {
+      "FAN1 PN": {
+        "id": "fan1pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "FAN2 SN": {
+        "id": "fan2sn",
+        "value": "028Q-20501"
+      }
+    },
+    {
+      "FAN2 PN": {
+        "id": "fan2pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "FAN3 SN": {
+        "id": "fan3sn",
+        "value": "2028Q-20567"
+      }
+    },
+    {
+      "FAN3 PN": {
+        "id": "fan3pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "FAN4 SN": {
+        "id": "fan4sn",
+        "value": "2028Q-20591"
+      }
+    },
+    {
+      "FAN4 PN": {
+        "id": "fan4pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "PSU1 SN": {
+        "id": "psu1sn",
+        "value": "FSG059006930GB2003005846"
+      }
+    },
+    {
+      "PSU1 PN": {
+        "id": "psu1pn",
+        "value": "700-013684-0200"
+      }
+    },
+    {
+      "PSU2 SN": {
+        "id": "psu2sn",
+        "value": "FSG059006930GB2003005932"
+      }
+    },
+    {
+      "PSU2 PN": {
+        "id": "psu2pn",
+        "value": "700-013684-0200"
+      }
+    },
+    {
+      "PSU3 SN": {
+        "id": "psu3sn",
+        "value": "FSG059006930GB2003005846"
+      }
+    },
+    {
+      "PSU3 PN": {
+        "id": "psu3pn",
+        "value": "700-013684-0200"
+      }
+    },
+    {
+      "PSU4 SN": {
+        "id": "psu4sn",
+        "value": "FSG059006930GB2003005932"
+      }
+    },
+    {
+      "PSU4 PN": {
+        "id": "psu4pn",
+        "value": "700-013684-0200"
+      }
+    }
+  ],
+  "AsBuiltFeedMap": {
+    "top_pn": "chassis_pn",
+    "top_sn": "chassis_sn",
+    "swversion": "swversion",
+    "components": [
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan1sn']",
+        "component_pn": "scanlist['fan1pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan2sn']",
+        "component_pn": "scanlist['fan2pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan3sn']",
+        "component_pn": "scanlist['fan3pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan4sn']",
+        "component_pn": "scanlist['fan4pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu1sn']",
+        "component_pn": "scanlist['psu1pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu2sn']",
+        "component_pn": "scanlist['psu2pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu3sn']",
+        "component_pn": "scanlist['psu3pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu4sn']",
+        "component_pn": "scanlist['psu4pn']"
+      }
+    ]
+  }
+}
+2021-06-29 13:30:02,336 SKU: 9740-80C-AC-F was already loaded
+2021-06-29 13:30:28,712 BExpress Sequence Updater
+2021-06-29 13:30:28,712 Connecting to Mongo Instance at 10.24.114.242
+2021-06-29 13:30:28,715 JSON file 8720-32C-AC-F.json:
+2021-06-29 13:30:28,715 JSON file SLX9740-40C-DC-F.json:
+2021-06-29 13:30:28,715 JSON file SLX9740-40C-DC-R.json:
+2021-06-29 13:30:28,715 JSON file 8720-32C.json:
+2021-06-29 13:30:28,715 JSON file 8720-32C-AC-R.json:
+2021-06-29 13:30:28,715 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-29 13:30:28,715 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-29 13:30:28,715 JSON file 8720-32C-DC-R.json:
+2021-06-29 13:30:28,715 JSON file SLX9740-80C-AC-F.json:
+2021-06-29 13:30:28,715 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-29 13:30:28,716 JSON file SLX9740-40C-AC-R.json:
+2021-06-29 13:30:28,716 JSON file SLX9740-40C-AC-F.json:
+2021-06-29 13:30:28,716 JSON file 8720-32C-DC-F.json:
+2021-06-29 13:30:28,717 JSON SKU 9740-80C-AC-F, {
+  "sku": "9740-80C-AC-F",
+  "about": {
+    "image": "SLX9740-80C.png",
+    "text": "SLX 9740-80C-AC-F has 80x100G QSFP28 Ports"
+  },
+  "parseobjs": [
+    {
+      "key": "swversion",
+      "regex": "Firmware.name:(.*)",
+      "expect": "['20.2.1slxosx_linux_upgrade_golden_eagle_dev_200429_1800']"
+    },
+    {
+      "key": "chassis_pn",
+      "regex": "Factory.Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_sn",
+      "regex": "Factory.Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_type",
+      "regex": "Chassis.Name:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_id",
+      "regex": "ID:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_pn",
+      "regex": "Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_sn",
+      "regex": "Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_type",
+      "regex": "AirFlow:(.*)",
+      "expect": "Port Side Intake"
+    },
+    {
+      "key": "mac",
+      "regex": "Burned.In.MAC.*:.(..:..:..:..:..:..)",
+      "expect": null
+    },
+    {
+      "key": "fan1speed",
+      "regex": "Fan.1.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan2speed",
+      "regex": "Fan.2.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan3speed",
+      "regex": "Fan.3.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan4speed",
+      "regex": "Fan.4.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "PSU1GOOD",
+      "regex": "Power.Supply.#1.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU2GOOD",
+      "regex": "Power.Supply.#2.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU3GOOD",
+      "regex": "Power.Supply.#3.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU4GOOD",
+      "regex": "Power.Supply.#4.is(.*)",
+      "expect": "OK"
+    }
+  ],
+  "commandset": [
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "admin\n",
+      "prompt": [
+        "Password:"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "password\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "term len 0\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "dhcp ztp cancel\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show version\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env power\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env fan\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env temp\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show chassis\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "write erase\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "reload\n",
+      "prompt": [
+        "n.*yes"
+      ],
+      "timeout": 2
+    },
+    {
+      "cmd": "y\n",
+      "prompt": [
+        "System.*initialization.*complete"
+      ],
+      "timeout": 180
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "admin\n",
+      "prompt": [
+        "Password:"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "password\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "term len 0\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "exit\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    }
+  ],
+  "scanlist": [
+    {
+      "Console": {
+        "id": "iconsole",
+        "value": "127.0.0.1:5010",
+        "telnet": true
+      }
+    },
+    {
+      "CHASSIS SN": {
+        "id": "chassis_sn",
+        "value": "2109Q-40077",
+        "SerialNumber": true
+      }
+    },
+    {
+      "FAN1 SN": {
+        "id": "fan1sn",
+        "value": "2109Q-40077"
+      }
+    },
+    {
+      "FAN1 PN": {
+        "id": "fan1pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "FAN2 SN": {
+        "id": "fan2sn",
+        "value": "028Q-20501"
+      }
+    },
+    {
+      "FAN2 PN": {
+        "id": "fan2pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "FAN3 SN": {
+        "id": "fan3sn",
+        "value": "2028Q-20567"
+      }
+    },
+    {
+      "FAN3 PN": {
+        "id": "fan3pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "FAN4 SN": {
+        "id": "fan4sn",
+        "value": "2028Q-20591"
+      }
+    },
+    {
+      "FAN4 PN": {
+        "id": "fan4pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "PSU1 SN": {
+        "id": "psu1sn",
+        "value": "FSG059006930GB2003005846"
+      }
+    },
+    {
+      "PSU1 PN": {
+        "id": "psu1pn",
+        "value": "700-013684-0200"
+      }
+    },
+    {
+      "PSU2 SN": {
+        "id": "psu2sn",
+        "value": "FSG059006930GB2003005932"
+      }
+    },
+    {
+      "PSU2 PN": {
+        "id": "psu2pn",
+        "value": "700-013684-0200"
+      }
+    },
+    {
+      "PSU3 SN": {
+        "id": "psu3sn",
+        "value": "FSG059006930GB2003005846"
+      }
+    },
+    {
+      "PSU3 PN": {
+        "id": "psu3pn",
+        "value": "700-013684-0200"
+      }
+    },
+    {
+      "PSU4 SN": {
+        "id": "psu4sn",
+        "value": "FSG059006930GB2003005932"
+      }
+    },
+    {
+      "PSU4 PN": {
+        "id": "psu4pn",
+        "value": "700-013684-0200"
+      }
+    }
+  ],
+  "AsBuiltFeedMap": {
+    "top_pn": "chassis_pn",
+    "top_sn": "chassis_sn",
+    "swversion": "swversion",
+    "components": [
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan1sn']",
+        "component_pn": "scanlist['fan1pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan2sn']",
+        "component_pn": "scanlist['fan2pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan3sn']",
+        "component_pn": "scanlist['fan3pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan4sn']",
+        "component_pn": "scanlist['fan4pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu1sn']",
+        "component_pn": "scanlist['psu1pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu2sn']",
+        "component_pn": "scanlist['psu2pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu3sn']",
+        "component_pn": "scanlist['psu3pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu4sn']",
+        "component_pn": "scanlist['psu4pn']"
+      }
+    ]
+  }
+}
+2021-06-29 13:30:28,799 SKU: 9740-80C-AC-F was already loaded
+2021-06-29 15:37:30,747 BExpress Sequence Updater
+2021-06-29 15:37:30,747 Connecting to Mongo Instance at 10.24.114.242
+2021-06-29 15:37:30,750 JSON file 8720-32C-AC-F.json:
+2021-06-29 15:37:30,750 JSON file SLX9740-40C-DC-F.json:
+2021-06-29 15:37:30,750 JSON file SLX9740-40C-DC-R.json:
+2021-06-29 15:37:30,750 JSON file 8720-32C.json:
+2021-06-29 15:37:30,750 JSON file 8720-32C-AC-R.json:
+2021-06-29 15:37:30,750 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-29 15:37:30,750 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-29 15:37:30,750 JSON file 8720-32C-DC-R.json:
+2021-06-29 15:37:30,750 JSON file SLX9740-80C-AC-F.json:
+2021-06-29 15:37:30,750 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-29 15:37:30,750 JSON file SLX9740-40C-AC-R.json:
+2021-06-29 15:37:30,750 JSON file SLX9740-40C-AC-F.json:
+2021-06-29 15:37:30,750 JSON file 8720-32C-DC-F.json:
+2021-06-29 15:37:30,752 JSON SKU 9740-80C-AC-F, {
+  "sku": "9740-80C-AC-F",
+  "about": {
+    "image": "SLX9740-80C.png",
+    "text": "SLX 9740-80C-AC-F has 80x100G QSFP28 Ports"
+  },
+  "parseobjs": [
+    {
+      "key": "swversion",
+      "regex": "Firmware.name:(.*)",
+      "expect": "['20.2.1slxosx_linux_upgrade_golden_eagle_dev_200429_1800']"
+    },
+    {
+      "key": "chassis_pn",
+      "regex": "Factory.Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_sn",
+      "regex": "Factory.Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_type",
+      "regex": "Chassis.Name:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_id",
+      "regex": "ID:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_pn",
+      "regex": "Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_sn",
+      "regex": "Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_type",
+      "regex": "AirFlow:(.*)",
+      "expect": "Port Side Intake"
+    },
+    {
+      "key": "mac",
+      "regex": "Burned.In.MAC.*:.(..:..:..:..:..:..)",
+      "expect": null
+    },
+    {
+      "key": "fan1speed",
+      "regex": "Fan.1.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan2speed",
+      "regex": "Fan.2.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan3speed",
+      "regex": "Fan.3.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan4speed",
+      "regex": "Fan.4.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "PSU1GOOD",
+      "regex": "Power.Supply.#1.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU2GOOD",
+      "regex": "Power.Supply.#2.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU3GOOD",
+      "regex": "Power.Supply.#3.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU4GOOD",
+      "regex": "Power.Supply.#4.is(.*)",
+      "expect": "OK"
+    }
+  ],
+  "commandset": [
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "admin\n",
+      "prompt": [
+        "Password:"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "password\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "term len 0\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "dhcp ztp cancel\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show version\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env power\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env fan\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env temp\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show chassis\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "write erase\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "reload\n",
+      "prompt": [
+        "n.*yes"
+      ],
+      "timeout": 2
+    },
+    {
+      "cmd": "y\n",
+      "prompt": [
+        "System.*initialization.*complete"
+      ],
+      "timeout": 180
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "admin\n",
+      "prompt": [
+        "Password:"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "password\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "term len 0\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "exit\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    }
+  ],
+  "scanlist": [
+    {
+      "Console": {
+        "id": "iconsole",
+        "value": "127.0.0.1:5010",
+        "telnet": true
+      }
+    },
+    {
+      "CHASSIS SN": {
+        "id": "chassis_sn",
+        "value": "2109Q-40077",
+        "SerialNumber": true
+      }
+    },
+    {
+      "FAN1 SN": {
+        "id": "fan1sn",
+        "value": "2109Q-40077"
+      }
+    },
+    {
+      "FAN1 PN": {
+        "id": "fan1pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "FAN2 SN": {
+        "id": "fan2sn",
+        "value": "028Q-20501"
+      }
+    },
+    {
+      "FAN2 PN": {
+        "id": "fan2pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "FAN3 SN": {
+        "id": "fan3sn",
+        "value": "2028Q-20567"
+      }
+    },
+    {
+      "FAN3 PN": {
+        "id": "fan3pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "FAN4 SN": {
+        "id": "fan4sn",
+        "value": "2028Q-20591"
+      }
+    },
+    {
+      "FAN4 PN": {
+        "id": "fan4pn",
+        "value": "700-013684-0100"
+      }
+    },
+    {
+      "PSU1 SN": {
+        "id": "psu1sn",
+        "value": "FSG059006930GB2003005846"
+      }
+    },
+    {
+      "PSU1 PN": {
+        "id": "psu1pn",
+        "value": "700-013684-0200"
+      }
+    },
+    {
+      "PSU2 SN": {
+        "id": "psu2sn",
+        "value": "FSG059006930GB2003005932"
+      }
+    },
+    {
+      "PSU2 PN": {
+        "id": "psu2pn",
+        "value": "700-013684-0200"
+      }
+    },
+    {
+      "PSU3 SN": {
+        "id": "psu3sn",
+        "value": "FSG059006930GB2003005846"
+      }
+    },
+    {
+      "PSU3 PN": {
+        "id": "psu3pn",
+        "value": "700-013684-0200"
+      }
+    },
+    {
+      "PSU4 SN": {
+        "id": "psu4sn",
+        "value": "FSG059006930GB2003005932"
+      }
+    },
+    {
+      "PSU4 PN": {
+        "id": "psu4pn",
+        "value": "700-013684-0200"
+      }
+    }
+  ],
+  "AsBuiltFeedMap": {
+    "top_pn": "chassis_pn",
+    "top_sn": "chassis_sn",
+    "swversion": "swversion",
+    "components": [
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan1sn']",
+        "component_pn": "scanlist['fan1pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan2sn']",
+        "component_pn": "scanlist['fan2pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan3sn']",
+        "component_pn": "scanlist['fan3pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan4sn']",
+        "component_pn": "scanlist['fan4pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu1sn']",
+        "component_pn": "scanlist['psu1pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu2sn']",
+        "component_pn": "scanlist['psu2pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu3sn']",
+        "component_pn": "scanlist['psu3pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu4sn']",
+        "component_pn": "scanlist['psu4pn']"
+      }
+    ]
+  }
+}
+2021-06-29 15:37:30,846 SKU: 9740-80C-AC-F was already loaded
+2021-06-29 15:44:59,855 BExpress Sequence Updater
+2021-06-29 15:44:59,855 Connecting to Mongo Instance at 10.24.114.242
+2021-06-29 15:44:59,858 JSON file 8720-32C-AC-F.json:
+2021-06-29 15:44:59,858 JSON file SLX9740-40C-DC-F.json:
+2021-06-29 15:44:59,858 JSON file SLX9740-40C-DC-R.json:
+2021-06-29 15:44:59,858 JSON file 8720-32C.json:
+2021-06-29 15:44:59,858 JSON file 8720-32C-AC-R.json:
+2021-06-29 15:44:59,858 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-29 15:44:59,858 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-29 15:44:59,858 JSON file 8720-32C-DC-R.json:
+2021-06-29 15:44:59,858 JSON file SLX9740-80C-AC-F.json:
+2021-06-29 15:44:59,858 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-29 15:44:59,858 JSON file SLX9740-40C-AC-R.json:
+2021-06-29 15:44:59,858 JSON file SLX9740-40C-AC-F.json:
+2021-06-29 15:44:59,858 JSON file 8720-32C-DC-F.json:
+2021-06-29 15:44:59,860 JSON SKU 9740-80C-AC-F, {
+  "sku": "9740-80C-AC-F",
+  "about": {
+    "image": "SLX9740-80C.png",
+    "text": "SLX 9740-80C-AC-F has 80x100G QSFP28 Ports"
+  },
+  "parseobjs": [
+    {
+      "key": "swversion",
+      "regex": "Firmware.name:(.*)",
+      "expect": "['20.2.1slxosx_linux_upgrade_golden_eagle_dev_200429_1800']"
+    },
+    {
+      "key": "chassis_pn",
+      "regex": "Factory.Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_sn",
+      "regex": "Factory.Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_type",
+      "regex": "Chassis.Name:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_id",
+      "regex": "ID:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_pn",
+      "regex": "Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_sn",
+      "regex": "Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_type",
+      "regex": "AirFlow:(.*)",
+      "expect": "Port Side Intake"
+    },
+    {
+      "key": "mac",
+      "regex": "Burned.In.MAC.*:.(..:..:..:..:..:..)",
+      "expect": null
+    },
+    {
+      "key": "fan1speed",
+      "regex": "Fan.1.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan2speed",
+      "regex": "Fan.2.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan3speed",
+      "regex": "Fan.3.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan4speed",
+      "regex": "Fan.4.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "PSU1GOOD",
+      "regex": "Power.Supply.#1.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU2GOOD",
+      "regex": "Power.Supply.#2.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU3GOOD",
+      "regex": "Power.Supply.#3.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU4GOOD",
+      "regex": "Power.Supply.#4.is(.*)",
+      "expect": "OK"
+    }
+  ],
+  "commandset": [
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "admin\n",
+      "prompt": [
+        "Password:"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "password\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "term len 0\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "dhcp ztp cancel\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show version\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env power\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env fan\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env temp\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show chassis\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "write erase\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "reload\n",
+      "prompt": [
+        "n.*yes"
+      ],
+      "timeout": 2
+    },
+    {
+      "cmd": "y\n",
+      "prompt": [
+        "System.*initialization.*complete"
+      ],
+      "timeout": 180
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "admin\n",
+      "prompt": [
+        "Password:"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "password\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "term len 0\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "exit\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    }
+  ],
+  "scanlist": [
+    {
+      "Console": {
+        "id": "iconsole",
+        "value": "127.0.0.1:5010",
+        "telnet": true
+      }
+    },
+    {
+      "CHASSIS SN": {
+        "id": "chassis_sn",
+        "value": "2109Q-40077",
+        "SerialNumber": true
+      }
+    },
+    {
+      "FAN1 SN": {
+        "id": "fan1sn",
+        "value": "2109Q-40077"
+      }
+    },
+    {
+      "FAN1 PN": {
+        "id": "fan1pn",
+        "value": "XN-FAN-004-F"
+      }
+    },
+    {
+      "FAN2 SN": {
+        "id": "fan2sn",
+        "value": "028Q-20501"
+      }
+    },
+    {
+      "FAN2 PN": {
+        "id": "fan2pn",
+        "value": "XN-FAN-004-F"
+      }
+    },
+    {
+      "FAN3 SN": {
+        "id": "fan3sn",
+        "value": "2028Q-20567"
+      }
+    },
+    {
+      "FAN3 PN": {
+        "id": "fan3pn",
+        "value": "XN-FAN-004-F"
+      }
+    },
+    {
+      "FAN4 SN": {
+        "id": "fan4sn",
+        "value": "2028Q-20591"
+      }
+    },
+    {
+      "FAN4 PN": {
+        "id": "fan4pn",
+        "value": "XN-FAN-004-F"
+      }
+    },
+    {
+      "PSU1 SN": {
+        "id": "psu1sn",
+        "value": "FSG059006930GB2003005846"
+      }
+    },
+    {
+      "PSU1 PN": {
+        "id": "psu1pn",
+        "value": "XN-ACPWR-1600W-F"
+      }
+    },
+    {
+      "PSU2 SN": {
+        "id": "psu2sn",
+        "value": "FSG059006930GB2003005932"
+      }
+    },
+    {
+      "PSU2 PN": {
+        "id": "psu2pn",
+        "value": "XN-ACPWR-1600W-F"
+      }
+    },
+    {
+      "PSU3 SN": {
+        "id": "psu3sn",
+        "value": "FSG059006930GB2003005846"
+      }
+    },
+    {
+      "PSU3 PN": {
+        "id": "psu3pn",
+        "value": "XN-ACPWR-1600W-F"
+      }
+    },
+    {
+      "PSU4 SN": {
+        "id": "psu4sn",
+        "value": "FSG059006930GB2003005932"
+      }
+    },
+    {
+      "PSU4 PN": {
+        "id": "psu4pn",
+        "value": "XN-ACPWR-1600W-F"
+      }
+    }
+  ],
+  "AsBuiltFeedMap": {
+    "top_pn": "chassis_pn",
+    "top_sn": "chassis_sn",
+    "swversion": "swversion",
+    "components": [
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan1sn']",
+        "component_pn": "scanlist['fan1pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan2sn']",
+        "component_pn": "scanlist['fan2pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan3sn']",
+        "component_pn": "scanlist['fan3pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan4sn']",
+        "component_pn": "scanlist['fan4pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu1sn']",
+        "component_pn": "scanlist['psu1pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu2sn']",
+        "component_pn": "scanlist['psu2pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu3sn']",
+        "component_pn": "scanlist['psu3pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu4sn']",
+        "component_pn": "scanlist['psu4pn']"
+      }
+    ]
+  }
+}
+2021-06-29 15:44:59,964 SKU: 9740-80C-AC-F was already loaded
+2021-06-30 08:46:47,193 BExpress Sequence Updater
+2021-06-30 08:46:47,193 Connecting to Mongo Instance at 10.24.114.242
+2021-06-30 08:46:47,196 JSON file 8720-32C-AC-F.json:
+2021-06-30 08:46:47,196 JSON file SLX9740-40C-DC-F.json:
+2021-06-30 08:46:47,196 JSON file SLX9740-40C-DC-R.json:
+2021-06-30 08:46:47,196 JSON file 8720-32C.json:
+2021-06-30 08:46:47,196 JSON file 8720-32C-AC-R.json:
+2021-06-30 08:46:47,196 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-30 08:46:47,196 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-30 08:46:47,196 JSON file 8720-32C-DC-R.json:
+2021-06-30 08:46:47,197 JSON file SLX9740-80C-AC-F.json:
+2021-06-30 08:46:47,197 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-30 08:46:47,197 JSON file SLX9740-40C-AC-R.json:
+2021-06-30 08:46:47,197 JSON file SLX9740-40C-AC-F.json:
+2021-06-30 08:46:47,197 JSON file 8720-32C-DC-F.json:
+2021-06-30 08:46:47,198 JSON SKU 8720-32C-DC-F, {
+  "sku": "8720-32C-DC-F",
+  "about": {
+    "image": "SLX9150-48XT-8C.png",
+    "text": "SLX9150-48XT-8C has 48x10G Copper ports and 8xQSFP28"
+  },
+  "parseobjs": [
+    {
+      "key": "swversion",
+      "regex": "Firmware.name:(.*)",
+      "expect": "['20.1.1', '20.2.3c', '20.2.3a']"
+    },
+    {
+      "key": "chassis_pn",
+      "regex": "Factory.Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_sn",
+      "regex": "Factory.Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_type",
+      "regex": "Chassis.Name:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_id",
+      "regex": "ID:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_pn",
+      "regex": "Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_sn",
+      "regex": "Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_type",
+      "regex": "AirFlow:(.*)",
+      "expect": "Port Side Intake,Type:DC"
+    },
+    {
+      "key": "mac",
+      "regex": "Burned.In.MAC.*:.(..:..:..:..:..:..)",
+      "expect": null
+    },
+    {
+      "key": "fan1speed",
+      "regex": "Fan.1.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan2speed",
+      "regex": "Fan.2.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan3speed",
+      "regex": "Fan.3.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan4speed",
+      "regex": "Fan.4.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan5speed",
+      "regex": "Fan.5.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan6speed",
+      "regex": "Fan.6.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "PSU1GOOD",
+      "regex": "Power.Supply.#1.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU2GOOD",
+      "regex": "Power.Supply.#2.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "tpmstatus",
+      "regex": "TPM.Provision.status.:(.*)",
+      "expect": "Provisioned"
+    }
+  ],
+  "commandset": [
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "admin\n",
+      "prompt": [
+        "Password:"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "password\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "term len 0\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "dhcp ztp cancel\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show version\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env power\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env fan\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show chassis\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "start-shell\n",
+      "prompt": [
+        "admin.*SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "admin.*SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "dmesg\n",
+      "prompt": [
+        "admin.*SLX.*#"
+      ],
+      "timeout": 60
+    },
+    {
+      "cmd": "exit\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "write erase\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "y\n",
+      "prompt": [
+        "System.*initialization.*complete"
+      ],
+      "timeout": 100
+    }
+  ],
+  "scanlist": [
+    {
+      "Console": {
+        "id": "iconsole",
+        "value": "10.31.221.215:3010",
+        "telnet": true
+      }
+    },
+    {
+      "CHASSIS SN": {
+        "id": "chassis_sn",
+        "value": "TH012040Q-40008",
+        "SerialNumber": true
+      }
+    },
+    {
+      "FAN1 SN": {
+        "id": "fan1sn",
+        "value": "2052Q-41271"
+      }
+    },
+    {
+      "FAN1 PN": {
+        "id": "fan1pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "FAN2 SN": {
+        "id": "fan2sn",
+        "value": "2052Q-41272"
+      }
+    },
+    {
+      "FAN2 PN": {
+        "id": "fan2pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "FAN3 SN": {
+        "id": "fan3sn",
+        "value": "2052Q-41273"
+      }
+    },
+    {
+      "FAN3 PN": {
+        "id": "fan3pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "FAN4 SN": {
+        "id": "fan4sn",
+        "value": "2052Q-41274"
+      }
+    },
+    {
+      "FAN4 PN": {
+        "id": "fan4pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "FAN5 SN": {
+        "id": "fan5sn",
+        "value": "2052Q-41275"
+      }
+    },
+    {
+      "FAN5 PN": {
+        "id": "fan5pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "FAN6 SN": {
+        "id": "fan6sn",
+        "value": "2052Q-41276"
+      }
+    },
+    {
+      "FAN6 PN": {
+        "id": "fan6pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "PSU1 SN": {
+        "id": "psu1sn",
+        "value": "L2571500JF06P"
+      }
+    },
+    {
+      "PSU1 PN": {
+        "id": "psu1pn",
+        "value": "XN-DCPWR-750W-F"
+      }
+    },
+    {
+      "PSU2 SN": {
+        "id": "psu2sn",
+        "value": "L2571500K306P"
+      }
+    },
+    {
+      "PSU2 PN": {
+        "id": "psu2pn",
+        "value": "XN-DCPWR-750W-F"
+      }
+    }
+  ],
+  "AsBuiltFeedMap": {
+    "top_pn": "chassis_pn",
+    "top_sn": "chassis_sn",
+    "swversion": "swversion",
+    "components": [
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan1sn']",
+        "component_pn": "scanlist['fan1pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan2sn']",
+        "component_pn": "scanlist['fan2pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan3sn']",
+        "component_pn": "scanlist['fan3pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan4sn']",
+        "component_pn": "scanlist['fan4pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan5sn']",
+        "component_pn": "scanlist['fan5pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan6sn']",
+        "component_pn": "scanlist['fan6pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu1sn']",
+        "component_pn": "scanlist['psu1pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu2sn']",
+        "component_pn": "scanlist['psu2pn']"
+      }
+    ]
+  }
+}
+2021-06-30 08:46:47,302 SKU: 8720-32C-DC-F was already loaded
+2021-06-30 08:46:47,309 JSON SKU 8720-32C-DC-R, {
+  "sku": "8720-32C-DC-R",
+  "about": {
+    "image": "SLX9150-48XT-8C.png",
+    "text": "SLX9150-48XT-8C has 48x10G Copper ports and 8xQSFP28"
+  },
+  "parseobjs": [
+    {
+      "key": "swversion",
+      "regex": "Firmware.name:(.*)",
+      "expect": "['20.1.1', '20.2.3c', '20.2.3a']"
+    },
+    {
+      "key": "chassis_pn",
+      "regex": "Factory.Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_sn",
+      "regex": "Factory.Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_type",
+      "regex": "Chassis.Name:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_id",
+      "regex": "ID:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_pn",
+      "regex": "Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_sn",
+      "regex": "Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_type",
+      "regex": "AirFlow:(.*)",
+      "expect": "Port Side Exhaust,Type:DC"
+    },
+    {
+      "key": "mac",
+      "regex": "Burned.In.MAC.*:.(..:..:..:..:..:..)",
+      "expect": null
+    },
+    {
+      "key": "fan1speed",
+      "regex": "Fan.1.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan2speed",
+      "regex": "Fan.2.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan3speed",
+      "regex": "Fan.3.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan4speed",
+      "regex": "Fan.4.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan5speed",
+      "regex": "Fan.5.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan6speed",
+      "regex": "Fan.6.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "PSU1GOOD",
+      "regex": "Power.Supply.#1.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU2GOOD",
+      "regex": "Power.Supply.#2.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "tpmstatus",
+      "regex": "TPM.Provision.status.:(.*)",
+      "expect": "Provisioned"
+    }
+  ],
+  "commandset": [
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "admin\n",
+      "prompt": [
+        "Password:"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "password\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "term len 0\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "dhcp ztp cancel\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show version\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env power\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env fan\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show chassis\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "start-shell\n",
+      "prompt": [
+        "admin.*SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "admin.*SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "dmesg\n",
+      "prompt": [
+        "admin.*SLX.*#"
+      ],
+      "timeout": 60
+    },
+    {
+      "cmd": "exit\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "write erase\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "y\n",
+      "prompt": [
+        "System.*initialization.*complete"
+      ],
+      "timeout": 100
+    }
+  ],
+  "scanlist": [
+    {
+      "Console": {
+        "id": "iconsole",
+        "value": "10.31.221.215:3010",
+        "telnet": true
+      }
+    },
+    {
+      "CHASSIS SN": {
+        "id": "chassis_sn",
+        "value": "TH012040Q-40008",
+        "SerialNumber": true
+      }
+    },
+    {
+      "FAN1 SN": {
+        "id": "fan1sn",
+        "value": "2052Q-41271"
+      }
+    },
+    {
+      "FAN1 PN": {
+        "id": "fan1pn",
+        "value": "XN-FAN-001-R"
+      }
+    },
+    {
+      "FAN2 SN": {
+        "id": "fan2sn",
+        "value": "2052Q-41272"
+      }
+    },
+    {
+      "FAN2 PN": {
+        "id": "fan2pn",
+        "value": "XN-FAN-001-R"
+      }
+    },
+    {
+      "FAN3 SN": {
+        "id": "fan3sn",
+        "value": "2052Q-41273"
+      }
+    },
+    {
+      "FAN3 PN": {
+        "id": "fan3pn",
+        "value": "XN-FAN-001-R"
+      }
+    },
+    {
+      "FAN4 SN": {
+        "id": "fan4sn",
+        "value": "2052Q-41274"
+      }
+    },
+    {
+      "FAN4 PN": {
+        "id": "fan4pn",
+        "value": "XN-FAN-001-R"
+      }
+    },
+    {
+      "FAN5 SN": {
+        "id": "fan5sn",
+        "value": "2052Q-41275"
+      }
+    },
+    {
+      "FAN5 PN": {
+        "id": "fan5pn",
+        "value": "XN-FAN-001-R"
+      }
+    },
+    {
+      "FAN6 SN": {
+        "id": "fan6sn",
+        "value": "2052Q-41276"
+      }
+    },
+    {
+      "FAN6 PN": {
+        "id": "fan6pn",
+        "value": "XN-FAN-001-R"
+      }
+    },
+    {
+      "PSU1 SN": {
+        "id": "psu1sn",
+        "value": "L2571500JF06P"
+      }
+    },
+    {
+      "PSU1 PN": {
+        "id": "psu1pn",
+        "value": "XN-DCPWR-750W-R"
+      }
+    },
+    {
+      "PSU2 SN": {
+        "id": "psu2sn",
+        "value": "L2571500K306P"
+      }
+    },
+    {
+      "PSU2 PN": {
+        "id": "psu2pn",
+        "value": "XN-DCPWR-750W-R"
+      }
+    }
+  ],
+  "AsBuiltFeedMap": {
+    "top_pn": "chassis_pn",
+    "top_sn": "chassis_sn",
+    "swversion": "swversion",
+    "components": [
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan1sn']",
+        "component_pn": "scanlist['fan1pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan2sn']",
+        "component_pn": "scanlist['fan2pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan3sn']",
+        "component_pn": "scanlist['fan3pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan4sn']",
+        "component_pn": "scanlist['fan4pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan5sn']",
+        "component_pn": "scanlist['fan5pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan6sn']",
+        "component_pn": "scanlist['fan6pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu1sn']",
+        "component_pn": "scanlist['psu1pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu2sn']",
+        "component_pn": "scanlist['psu2pn']"
+      }
+    ]
+  }
+}
+2021-06-30 08:46:47,327 SKU: 8720-32C-DC-R was already loaded
+2021-06-30 08:47:36,869 BExpress Sequence Updater
+2021-06-30 08:47:36,870 Connecting to Mongo Instance at 10.24.114.242
+2021-06-30 08:47:36,872 JSON file 8720-32C-AC-F.json:
+2021-06-30 08:47:36,872 JSON file SLX9740-40C-DC-F.json:
+2021-06-30 08:47:36,872 JSON file SLX9740-40C-DC-R.json:
+2021-06-30 08:47:36,872 JSON file 8720-32C.json:
+2021-06-30 08:47:36,872 JSON file 8720-32C-AC-R.json:
+2021-06-30 08:47:36,873 JSON file SLX9150-48XT-6C-AC-F.json:
+2021-06-30 08:47:36,873 JSON file SLX9150-48XT-6C-AC-R.json:
+2021-06-30 08:47:36,873 JSON file 8720-32C-DC-R.json:
+2021-06-30 08:47:36,873 JSON file SLX9740-80C-AC-F.json:
+2021-06-30 08:47:36,873 JSON file SLX9150-48Y-6C-AC-F.json:
+2021-06-30 08:47:36,873 JSON file SLX9740-40C-AC-R.json:
+2021-06-30 08:47:36,873 JSON file SLX9740-40C-AC-F.json:
+2021-06-30 08:47:36,873 JSON file 8720-32C-DC-F.json:
+2021-06-30 08:47:36,874 JSON SKU 8720-32C-DC-F, {
+  "sku": "8720-32C-DC-F",
+  "about": {
+    "image": "SLX9150-48XT-8C.png",
+    "text": "SLX9150-48XT-8C has 48x10G Copper ports and 8xQSFP28"
+  },
+  "parseobjs": [
+    {
+      "key": "swversion",
+      "regex": "Firmware.name:(.*)",
+      "expect": "['20.1.1', '20.2.3c', '20.2.3a']"
+    },
+    {
+      "key": "chassis_pn",
+      "regex": "Factory.Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_sn",
+      "regex": "Factory.Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_type",
+      "regex": "Chassis.Name:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_id",
+      "regex": "ID:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_pn",
+      "regex": "Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_sn",
+      "regex": "Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_type",
+      "regex": "AirFlow:(.*)",
+      "expect": "Port Side Intake,Type:DC"
+    },
+    {
+      "key": "mac",
+      "regex": "Burned.In.MAC.*:.(..:..:..:..:..:..)",
+      "expect": null
+    },
+    {
+      "key": "fan1speed",
+      "regex": "Fan.1.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan2speed",
+      "regex": "Fan.2.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan3speed",
+      "regex": "Fan.3.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan4speed",
+      "regex": "Fan.4.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan5speed",
+      "regex": "Fan.5.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan6speed",
+      "regex": "Fan.6.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "PSU1GOOD",
+      "regex": "Power.Supply.#1.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU2GOOD",
+      "regex": "Power.Supply.#2.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "tpmstatus",
+      "regex": "TPM.Provision.status.:(.*)",
+      "expect": "Provisioned"
+    }
+  ],
+  "commandset": [
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "admin\n",
+      "prompt": [
+        "Password:"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "password\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "term len 0\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "dhcp ztp cancel\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show version\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env power\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env fan\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show chassis\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "start-shell\n",
+      "prompt": [
+        "admin.*SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "admin.*SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "dmesg\n",
+      "prompt": [
+        "admin.*SLX.*#"
+      ],
+      "timeout": 60
+    },
+    {
+      "cmd": "exit\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "write erase\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "y\n",
+      "prompt": [
+        "System.*initialization.*complete"
+      ],
+      "timeout": 100
+    }
+  ],
+  "scanlist": [
+    {
+      "Console": {
+        "id": "iconsole",
+        "value": "10.31.221.215:3010",
+        "telnet": true
+      }
+    },
+    {
+      "CHASSIS SN": {
+        "id": "chassis_sn",
+        "value": "TH012040Q-40008",
+        "SerialNumber": true
+      }
+    },
+    {
+      "FAN1 SN": {
+        "id": "fan1sn",
+        "value": "2052Q-41271"
+      }
+    },
+    {
+      "FAN1 PN": {
+        "id": "fan1pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "FAN2 SN": {
+        "id": "fan2sn",
+        "value": "2052Q-41272"
+      }
+    },
+    {
+      "FAN2 PN": {
+        "id": "fan2pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "FAN3 SN": {
+        "id": "fan3sn",
+        "value": "2052Q-41273"
+      }
+    },
+    {
+      "FAN3 PN": {
+        "id": "fan3pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "FAN4 SN": {
+        "id": "fan4sn",
+        "value": "2052Q-41274"
+      }
+    },
+    {
+      "FAN4 PN": {
+        "id": "fan4pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "FAN5 SN": {
+        "id": "fan5sn",
+        "value": "2052Q-41275"
+      }
+    },
+    {
+      "FAN5 PN": {
+        "id": "fan5pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "FAN6 SN": {
+        "id": "fan6sn",
+        "value": "2052Q-41276"
+      }
+    },
+    {
+      "FAN6 PN": {
+        "id": "fan6pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "PSU1 SN": {
+        "id": "psu1sn",
+        "value": "L2571500JF06P"
+      }
+    },
+    {
+      "PSU1 PN": {
+        "id": "psu1pn",
+        "value": "XN-DCPWR-750W-F"
+      }
+    },
+    {
+      "PSU2 SN": {
+        "id": "psu2sn",
+        "value": "L2571500K306P"
+      }
+    },
+    {
+      "PSU2 PN": {
+        "id": "psu2pn",
+        "value": "XN-DCPWR-750W-F"
+      }
+    }
+  ],
+  "AsBuiltFeedMap": {
+    "top_pn": "chassis_pn",
+    "top_sn": "chassis_sn",
+    "swversion": "swversion",
+    "components": [
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan1sn']",
+        "component_pn": "scanlist['fan1pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan2sn']",
+        "component_pn": "scanlist['fan2pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan3sn']",
+        "component_pn": "scanlist['fan3pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan4sn']",
+        "component_pn": "scanlist['fan4pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan5sn']",
+        "component_pn": "scanlist['fan5pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan6sn']",
+        "component_pn": "scanlist['fan6pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu1sn']",
+        "component_pn": "scanlist['psu1pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu2sn']",
+        "component_pn": "scanlist['psu2pn']"
+      }
+    ]
+  }
+}
+2021-06-30 08:47:36,970 SKU: 8720-32C-DC-F was already loaded
+2021-06-30 08:47:36,972 JSON SKU 8720-32C-DC-R, {
+  "sku": "8720-32C-DC-R",
+  "about": {
+    "image": "SLX9150-48XT-8C.png",
+    "text": "SLX9150-48XT-8C has 48x10G Copper ports and 8xQSFP28"
+  },
+  "parseobjs": [
+    {
+      "key": "swversion",
+      "regex": "Firmware.name:(.*)",
+      "expect": "['20.1.1', '20.2.3c', '20.2.3a']"
+    },
+    {
+      "key": "chassis_pn",
+      "regex": "Factory.Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_sn",
+      "regex": "Factory.Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_type",
+      "regex": "Chassis.Name:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_id",
+      "regex": "ID:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_pn",
+      "regex": "Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_sn",
+      "regex": "Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_type",
+      "regex": "AirFlow:(.*)",
+      "expect": "Port Side Exhaust,Type:DC"
+    },
+    {
+      "key": "mac",
+      "regex": "Burned.In.MAC.*:.(..:..:..:..:..:..)",
+      "expect": null
+    },
+    {
+      "key": "fan1speed",
+      "regex": "Fan.1.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan2speed",
+      "regex": "Fan.2.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan3speed",
+      "regex": "Fan.3.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan4speed",
+      "regex": "Fan.4.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan5speed",
+      "regex": "Fan.5.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan6speed",
+      "regex": "Fan.6.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "PSU1GOOD",
+      "regex": "Power.Supply.#1.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU2GOOD",
+      "regex": "Power.Supply.#2.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "tpmstatus",
+      "regex": "TPM.Provision.status.:(.*)",
+      "expect": "Provisioned"
+    }
+  ],
+  "commandset": [
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "admin\n",
+      "prompt": [
+        "Password:"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "password\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "term len 0\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "dhcp ztp cancel\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show version\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env power\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env fan\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show chassis\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "start-shell\n",
+      "prompt": [
+        "admin.*SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "admin.*SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "dmesg\n",
+      "prompt": [
+        "admin.*SLX.*#"
+      ],
+      "timeout": 60
+    },
+    {
+      "cmd": "exit\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "write erase\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "y\n",
+      "prompt": [
+        "System.*initialization.*complete"
+      ],
+      "timeout": 100
+    }
+  ],
+  "scanlist": [
+    {
+      "Console": {
+        "id": "iconsole",
+        "value": "10.31.221.215:3010",
+        "telnet": true
+      }
+    },
+    {
+      "CHASSIS SN": {
+        "id": "chassis_sn",
+        "value": "TH012040Q-40008",
+        "SerialNumber": true
+      }
+    },
+    {
+      "FAN1 SN": {
+        "id": "fan1sn",
+        "value": "2052Q-41271"
+      }
+    },
+    {
+      "FAN1 PN": {
+        "id": "fan1pn",
+        "value": "XN-FAN-001-R"
+      }
+    },
+    {
+      "FAN2 SN": {
+        "id": "fan2sn",
+        "value": "2052Q-41272"
+      }
+    },
+    {
+      "FAN2 PN": {
+        "id": "fan2pn",
+        "value": "XN-FAN-001-R"
+      }
+    },
+    {
+      "FAN3 SN": {
+        "id": "fan3sn",
+        "value": "2052Q-41273"
+      }
+    },
+    {
+      "FAN3 PN": {
+        "id": "fan3pn",
+        "value": "XN-FAN-001-R"
+      }
+    },
+    {
+      "FAN4 SN": {
+        "id": "fan4sn",
+        "value": "2052Q-41274"
+      }
+    },
+    {
+      "FAN4 PN": {
+        "id": "fan4pn",
+        "value": "XN-FAN-001-R"
+      }
+    },
+    {
+      "FAN5 SN": {
+        "id": "fan5sn",
+        "value": "2052Q-41275"
+      }
+    },
+    {
+      "FAN5 PN": {
+        "id": "fan5pn",
+        "value": "XN-FAN-001-R"
+      }
+    },
+    {
+      "FAN6 SN": {
+        "id": "fan6sn",
+        "value": "2052Q-41276"
+      }
+    },
+    {
+      "FAN6 PN": {
+        "id": "fan6pn",
+        "value": "XN-FAN-001-R"
+      }
+    },
+    {
+      "PSU1 SN": {
+        "id": "psu1sn",
+        "value": "L2571500JF06P"
+      }
+    },
+    {
+      "PSU1 PN": {
+        "id": "psu1pn",
+        "value": "XN-DCPWR-750W-R"
+      }
+    },
+    {
+      "PSU2 SN": {
+        "id": "psu2sn",
+        "value": "L2571500K306P"
+      }
+    },
+    {
+      "PSU2 PN": {
+        "id": "psu2pn",
+        "value": "XN-DCPWR-750W-R"
+      }
+    }
+  ],
+  "AsBuiltFeedMap": {
+    "top_pn": "chassis_pn",
+    "top_sn": "chassis_sn",
+    "swversion": "swversion",
+    "components": [
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan1sn']",
+        "component_pn": "scanlist['fan1pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan2sn']",
+        "component_pn": "scanlist['fan2pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan3sn']",
+        "component_pn": "scanlist['fan3pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan4sn']",
+        "component_pn": "scanlist['fan4pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan5sn']",
+        "component_pn": "scanlist['fan5pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan6sn']",
+        "component_pn": "scanlist['fan6pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu1sn']",
+        "component_pn": "scanlist['psu1pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu2sn']",
+        "component_pn": "scanlist['psu2pn']"
+      }
+    ]
+  }
+}
+2021-06-30 08:47:37,002 SKU: 8720-32C-DC-R was already loaded
+2021-06-30 08:47:37,010 JSON SKU 8720-32C-AC-F, {
+  "sku": "8720-32C-AC-F",
+  "about": {
+    "image": "SLX9150-48XT-8C.png",
+    "text": "SLX9150-48XT-8C has 48x10G Copper ports and 8xQSFP28"
+  },
+  "parseobjs": [
+    {
+      "key": "swversion",
+      "regex": "Firmware.name:(.*)",
+      "expect": "['20.1.1', '20.2.3c', '20.2.3a']"
+    },
+    {
+      "key": "chassis_pn",
+      "regex": "Factory.Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_sn",
+      "regex": "Factory.Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_type",
+      "regex": "Chassis.Name:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_id",
+      "regex": "ID:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_pn",
+      "regex": "Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_sn",
+      "regex": "Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_type",
+      "regex": "AirFlow:(.*)",
+      "expect": "Port Side Intake,Type:AC"
+    },
+    {
+      "key": "mac",
+      "regex": "Burned.In.MAC.*:.(..:..:..:..:..:..)",
+      "expect": null
+    },
+    {
+      "key": "fan1speed",
+      "regex": "Fan.1.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan2speed",
+      "regex": "Fan.2.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan3speed",
+      "regex": "Fan.3.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan4speed",
+      "regex": "Fan.4.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan5speed",
+      "regex": "Fan.5.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan6speed",
+      "regex": "Fan.6.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "PSU1GOOD",
+      "regex": "Power.Supply.#1.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU2GOOD",
+      "regex": "Power.Supply.#2.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "tpmstatus",
+      "regex": "TPM.Provision.status.:(.*)",
+      "expect": "Provisioned"
+    }
+  ],
+  "commandset": [
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "admin\n",
+      "prompt": [
+        "Password:"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "password\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "term len 0\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "dhcp ztp cancel\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show version\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env power\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env fan\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show chassis\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show tpm ekcert\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show tpm iakcert\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show tpm idevidcert\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "start-shell\n",
+      "prompt": [
+        "admin.*SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "admin.*SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "dmesg\n",
+      "prompt": [
+        "admin.*SLX.*#"
+      ],
+      "timeout": 60
+    },
+    {
+      "cmd": "exit\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "write erase\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "y\n",
+      "prompt": [
+        "System.*initialization.*complete"
+      ],
+      "timeout": 100
+    }
+  ],
+  "scanlist": [
+    {
+      "Console": {
+        "id": "iconsole",
+        "value": "10.31.221.215:3010",
+        "telnet": true
+      }
+    },
+    {
+      "CHASSIS SN": {
+        "id": "chassis_sn",
+        "value": "TH012040Q-40008",
+        "SerialNumber": true
+      }
+    },
+    {
+      "FAN1 SN": {
+        "id": "fan1sn",
+        "value": "2052Q-41271"
+      }
+    },
+    {
+      "FAN1 PN": {
+        "id": "fan1pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "FAN2 SN": {
+        "id": "fan2sn",
+        "value": "2052Q-41272"
+      }
+    },
+    {
+      "FAN2 PN": {
+        "id": "fan2pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "FAN3 SN": {
+        "id": "fan3sn",
+        "value": "2052Q-41273"
+      }
+    },
+    {
+      "FAN3 PN": {
+        "id": "fan3pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "FAN4 SN": {
+        "id": "fan4sn",
+        "value": "2052Q-41274"
+      }
+    },
+    {
+      "FAN4 PN": {
+        "id": "fan4pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "FAN5 SN": {
+        "id": "fan5sn",
+        "value": "2052Q-41275"
+      }
+    },
+    {
+      "FAN5 PN": {
+        "id": "fan5pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "FAN6 SN": {
+        "id": "fan6sn",
+        "value": "2052Q-41276"
+      }
+    },
+    {
+      "FAN6 PN": {
+        "id": "fan6pn",
+        "value": "XN-FAN-001-F"
+      }
+    },
+    {
+      "PSU1 SN": {
+        "id": "psu1sn",
+        "value": "L2571500JF06P"
+      }
+    },
+    {
+      "PSU1 PN": {
+        "id": "psu1pn",
+        "value": "XN-DCPWR-750W-F"
+      }
+    },
+    {
+      "PSU2 SN": {
+        "id": "psu2sn",
+        "value": "L2571500K306P"
+      }
+    },
+    {
+      "PSU2 PN": {
+        "id": "psu2pn",
+        "value": "XN-DCPWR-750W-F"
+      }
+    }
+  ],
+  "AsBuiltFeedMap": {
+    "top_pn": "chassis_pn",
+    "top_sn": "chassis_sn",
+    "swversion": "swversion",
+    "components": [
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan1sn']",
+        "component_pn": "scanlist['fan1pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan2sn']",
+        "component_pn": "scanlist['fan2pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan3sn']",
+        "component_pn": "scanlist['fan3pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan4sn']",
+        "component_pn": "scanlist['fan4pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan5sn']",
+        "component_pn": "scanlist['fan5pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan6sn']",
+        "component_pn": "scanlist['fan6pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu1sn']",
+        "component_pn": "scanlist['psu1pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu2sn']",
+        "component_pn": "scanlist['psu2pn']"
+      }
+    ]
+  }
+}
+2021-06-30 08:47:37,032 SKU: 8720-32C-AC-F was already loaded
+2021-06-30 08:47:37,034 JSON SKU 8720-32C-AC-R, {
+  "sku": "8720-32C-AC-R",
+  "about": {
+    "image": "SLX9150-48XT-8C.png",
+    "text": "SLX9150-48XT-8C has 48x10G Copper ports and 8xQSFP28"
+  },
+  "parseobjs": [
+    {
+      "key": "swversion",
+      "regex": "Firmware.name:(.*)",
+      "expect": "['20.1.1', '20.2.3c', '20.2.3a']"
+    },
+    {
+      "key": "chassis_pn",
+      "regex": "Factory.Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_sn",
+      "regex": "Factory.Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "chassis_type",
+      "regex": "Chassis.Name:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_id",
+      "regex": "ID:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_pn",
+      "regex": "Part.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_sn",
+      "regex": "Serial.Num:(.*)",
+      "expect": null
+    },
+    {
+      "key": "psu_type",
+      "regex": "AirFlow:(.*)",
+      "expect": "Port Side Exhaust,Type:AC"
+    },
+    {
+      "key": "mac",
+      "regex": "Burned.In.MAC.*:.(..:..:..:..:..:..)",
+      "expect": null
+    },
+    {
+      "key": "fan1speed",
+      "regex": "Fan.1.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan2speed",
+      "regex": "Fan.2.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan3speed",
+      "regex": "Fan.3.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan4speed",
+      "regex": "Fan.4.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan5speed",
+      "regex": "Fan.5.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "fan6speed",
+      "regex": "Fan.6.*is.(.*).RPM",
+      "expect": null
+    },
+    {
+      "key": "PSU1GOOD",
+      "regex": "Power.Supply.#1.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "PSU2GOOD",
+      "regex": "Power.Supply.#2.is(.*)",
+      "expect": "OK"
+    },
+    {
+      "key": "tpmstatus",
+      "regex": "TPM.Provision.status.:(.*)",
+      "expect": "Provisioned"
+    }
+  ],
+  "commandset": [
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "admin\n",
+      "prompt": [
+        "Password:"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "password\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "term len 0\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "dhcp ztp cancel\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show version\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env power\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show env fan\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show chassis\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "start-shell\n",
+      "prompt": [
+        "admin.*SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "\n",
+      "prompt": [
+        "admin.*SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "dmesg\n",
+      "prompt": [
+        "admin.*SLX.*#"
+      ],
+      "timeout": 60
+    },
+    {
+      "cmd": "exit\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show system\n",
+      "prompt": [
+        "SLX.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "write erase\n",
+      "prompt": [
+        "SLX.*login"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "y\n",
+      "prompt": [
+        "System.*initialization.*complete"
+      ],
+      "timeout": 100
+    }
+  ],
+  "scanlist": [
+    {
+      "Console": {
+        "id": "iconsole",
+        "value": "10.31.221.215:3010",
+        "telnet": true
+      }
+    },
+    {
+      "CHASSIS SN": {
+        "id": "chassis_sn",
+        "value": "TH012040Q-40008",
+        "SerialNumber": true
+      }
+    },
+    {
+      "FAN1 SN": {
+        "id": "fan1sn",
+        "value": "2052Q-41271"
+      }
+    },
+    {
+      "FAN1 PN": {
+        "id": "fan1pn",
+        "value": "XN-FAN-001-R"
+      }
+    },
+    {
+      "FAN2 SN": {
+        "id": "fan2sn",
+        "value": "2052Q-41272"
+      }
+    },
+    {
+      "FAN2 PN": {
+        "id": "fan2pn",
+        "value": "XN-FAN-001-R"
+      }
+    },
+    {
+      "FAN3 SN": {
+        "id": "fan3sn",
+        "value": "2052Q-41273"
+      }
+    },
+    {
+      "FAN3 PN": {
+        "id": "fan3pn",
+        "value": "XN-FAN-001-R"
+      }
+    },
+    {
+      "FAN4 SN": {
+        "id": "fan4sn",
+        "value": "2052Q-41274"
+      }
+    },
+    {
+      "FAN4 PN": {
+        "id": "fan4pn",
+        "value": "XN-FAN-001-R"
+      }
+    },
+    {
+      "FAN5 SN": {
+        "id": "fan5sn",
+        "value": "2052Q-41275"
+      }
+    },
+    {
+      "FAN5 PN": {
+        "id": "fan5pn",
+        "value": "XN-FAN-001-R"
+      }
+    },
+    {
+      "FAN6 SN": {
+        "id": "fan6sn",
+        "value": "2052Q-41276"
+      }
+    },
+    {
+      "FAN6 PN": {
+        "id": "fan6pn",
+        "value": "XN-FAN-001-R"
+      }
+    },
+    {
+      "PSU1 SN": {
+        "id": "psu1sn",
+        "value": "L2571500JF06P"
+      }
+    },
+    {
+      "PSU1 PN": {
+        "id": "psu1pn",
+        "value": "XN-DCPWR-750W-R"
+      }
+    },
+    {
+      "PSU2 SN": {
+        "id": "psu2sn",
+        "value": "L2571500K306P"
+      }
+    },
+    {
+      "PSU2 PN": {
+        "id": "psu2pn",
+        "value": "XN-DCPWR-750W-R"
+      }
+    }
+  ],
+  "AsBuiltFeedMap": {
+    "top_pn": "chassis_pn",
+    "top_sn": "chassis_sn",
+    "swversion": "swversion",
+    "components": [
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan1sn']",
+        "component_pn": "scanlist['fan1pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan2sn']",
+        "component_pn": "scanlist['fan2pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan3sn']",
+        "component_pn": "scanlist['fan3pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan4sn']",
+        "component_pn": "scanlist['fan4pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan5sn']",
+        "component_pn": "scanlist['fan5pn']"
+      },
+      {
+        "item": "fan",
+        "component_sn": "scanlist['fan6sn']",
+        "component_pn": "scanlist['fan6pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu1sn']",
+        "component_pn": "scanlist['psu1pn']"
+      },
+      {
+        "item": "psu",
+        "component_sn": "scanlist['psu2sn']",
+        "component_pn": "scanlist['psu2pn']"
+      }
+    ]
+  }
+}
+2021-06-30 08:47:37,063 SKU: 8720-32C-AC-R was already loaded

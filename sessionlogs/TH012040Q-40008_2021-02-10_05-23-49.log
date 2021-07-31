@@ -1,0 +1,168 @@
+[INFO, 05:23:49.777353] : BaudExpress Rev-481, Last updated 2021-02-10
+[INFO, 05:23:49.777372] : Starting BaudOperation for TH012040Q-40008/SLX9150-48XT-6C-AC-F/10.31.221.215:3010
+[INFO, 05:23:49.777535] : Trying to establish connection with telnet console 10.31.221.215:3010
+[INFO, 05:23:54.800327] : Successfully established connection with telnet console 10.31.221.215:3010
+[INFO, 05:23:54.800739] : Scanned Info: {
+  "iconsole": "10.31.221.215:3010",
+  "chassis_sn": "TH012040Q-40008",
+  "fan1sn": "L214WJ000C06P",
+  "fan1pn": "700-013684-0100",
+  "fan3sn": "L214WJ000C06Q",
+  "fan3pn": "700-013684-0100",
+  "fan2sn": "L214WJ000C07P",
+  "fan2pn": "700-013684-0100",
+  "psu1sn": "L214WJ000D07P",
+  "psu1pn": "700-013684-0200"
+}
+[CMD, 05:23:54.800892] : {'cmd': '\n', 'prompt': ['SLX.*login'], 'timeout': 10, 'usermsg': {'text': 'Please ensure that unit is powered on', 'image': None}}
+[RSP, 05:23:55.632242] : 
+
+
+SLX-OS (SLX)
+SLX login: 
+[CMD, 05:23:56.312541] : {'cmd': 'admin\n', 'prompt': ['Password:'], 'timeout': 10}
+[RSP, 05:23:56.411639] : admin
+
+
+Password: 
+[CMD, 05:23:56.427345] : {'cmd': 'password\n', 'prompt': ['SLX.*#'], 'timeout': 10}
+[RSP, 05:23:56.680992] : 
+2021/02/10-13:08:33, [SEC-1206], 1893,, INFO, SLX9150-48XT, Login information: User [admin via console] Last Successful Login Time : Wed Feb 10 13:02:37 2021.
+
+SECURITY WARNING: The default password for at least
+one default account (root, admin and user) have not been changed.
+
+Welcome to the Extreme SLX-OS Software
+admin connected from 127.0.0.1 using console on SLX
+[?7hSLX# 
+[CMD, 05:23:56.873527] : {'cmd': 'term len 0\n', 'prompt': ['SLX.*#'], 'timeout': 10}
+[RSP, 05:23:57.346440] : term len 0
+Successfully set This Session Terminal Length to  0.
+SLX# 
+[CMD, 05:23:57.370636] : {'cmd': 'dhcp ztp cancel\n', 'prompt': ['SLX.*#'], 'timeout': 10}
+[RSP, 05:23:57.729532] : dhcp ztp cancel
+ZTP is not enabled.
+SLX# 
+[CMD, 05:23:57.890764] : {'cmd': 'show version\n', 'prompt': ['SLX.*#'], 'timeout': 10}
+[RSP, 05:23:58.915564] : show version
+
+SLX-OS Operating System Version: 20.1.1
+Copyright (c) 1995-2021 Extreme Networks, Inc.
+Firmware name:      20.1.1
+Build Time:         09:47:07 Feb  6, 2020
+Install Time:       22:32:18 Apr 10, 2020
+Kernel:             4.14.67
+Control Processor:  Intel(R) Atom(TM) CPU C3758 @ 2.20GHz,  8 cores
+Microcode Version:  0x2e
+Memory Size:        System Total: 15632 MB
+System Uptime:      0days 17hrs 11mins 9secs 
+
+Name     Primary/Secondary Versions 
+------------------------------------------
+SLX-OS   20.1.1
+         20.1.1
+
+SLX# 
+[CMD, 05:23:58.933425] : {'cmd': 'show env power\n', 'prompt': ['SLX.*#'], 'timeout': 10}
+[RSP, 05:23:59.442871] : show env power
+
+Power Supply #1 is OK
+ARTESYN,700-013917-0000,L257VQ001505P,AirFlow: Port Side Exhaust
+Power Supply #2 is absent
+
+SLX# 
+[CMD, 05:23:59.467518] : {'cmd': 'show env fan\n', 'prompt': ['SLX.*#'], 'timeout': 10}
+[RSP, 05:24:00.020480] : show env fan
+Fan 1 is Ok, speed is 11041 RPM
+Fan 2 is Ok, speed is 10881 RPM
+Fan 3 is Ok, speed is 11041 RPM
+Fan 4 is Ok, speed is 11041 RPM
+Fan 5 is Ok, speed is 11041 RPM
+Fan 6 is Ok, speed is 11041 RPM
+
+SLX# 
+[CMD, 05:24:00.040179] : {'cmd': 'show chassis\n', 'prompt': ['SLX.*#'], 'timeout': 10}
+[RSP, 05:24:00.635091] : show chassis
+
+Chassis Name:	SLX9150-48XT
+switchType: 3010
+
+FAN  Unit: 1	
+Time Awake:            	0 days
+
+FAN  Unit: 2	
+Time Awake:            	0 days
+
+FAN  Unit: 3	
+Time Awake:            	0 days
+
+FAN  Unit: 4	
+Time Awake:            	0 days
+
+FAN  Unit: 5	
+Time Awake:            	0 days
+
+FAN  Unit: 6	
+Time Awake:            	0 days
+
+POWER SUPPLY  Unit: 1	
+Time Awake:            	0 days
+ID:           		ARTESYN
+Part Num:     		700-013917-0000
+Serial Num:   		L257VQ001505P
+
+CHASSIS/WWN  Unit: 1
+Power Consume Factor: 	0
+Factory Part Num:      	800950-00
+Factory Serial Num:    	1908Q-20179
+Manufacture:           	Day: 19  Month:  2  Year: 2019
+Update:                	Day:  9  Month:  2  Year: 2021
+Time Alive:            	302 days
+Time Awake:            	0 days
+
+
+SLX# 
+[CMD, 05:24:00.649822] : {'cmd': 'show system\n', 'prompt': ['SLX.*#'], 'timeout': 10}
+[RSP, 05:24:01.407585] : show system
+Stack MAC                     : 00:04:96:b7:86:fa
+ 
+  -- UNIT 0 --
+Unit Name                     : SLX
+Up Time                       : up 17:11
+Current Time                  : 13:08:38 GMT
+SLX-OS Version                : 20.1.1
+Jumbo Capable                 : yes
+Burned In MAC                 : 00:04:96:b7:86:f0
+Management IP                 : 10.24.114.233
+Management Port Status        : UP
+ 
+  -- Power Supplies --
+PS1 is OK
+PS2 is absent
+ 
+  -- Fan Status --
+Fan 1 is Ok, speed is 10881 RPM
+Fan 2 is Ok, speed is 10881 RPM
+Fan 3 is Ok, speed is 11041 RPM
+Fan 4 is Ok, speed is 11041 RPM
+Fan 5 is Ok, speed is 11041 RPM
+Fan 6 is Ok, speed is 11041 RPM
+
+SLX# 
+[CMD, 05:24:01.430948] : {'cmd': 'exit\n', 'prompt': ['SLX.*login'], 'timeout': 10}
+[RSP, 05:24:02.849035] : exit
+2021/02/10-13:08:39, [SEC-3022], 1894,, INFO, SLX9150-48XT, Event: logout, Status: success, Info: Successful logout by user [admin].
+
+
+
+SLX-OS (SLX)
+SLX login: 
+[INFO, 05:24:02.898595] : ====
+
+
+
+[INFO, 05:24:02.898771] : Checking Expected Values swversion : 20.1.1/ 20.2.3_bootloader
+[INFO, 05:24:02.898956] : {'serial': 'TH012040Q-40008', 'status': 'FAILED', 'msg': 'swversion: Expected 20.2.3_bootloader/Found 20.1.1'} swversion: Expected 20.2.3_bootloader/Found 20.1.1 
+[INFO, 05:24:02.899113] : Terminating execution due to error
+[INFO, 05:24:02.899121] : Writing ASBF file
+[INFO, 05:24:02.899914] : Completed, exiting from threads
