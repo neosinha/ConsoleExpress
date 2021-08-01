@@ -1,21 +1,25 @@
-#$Id: BEXPServer.py 532 2021-06-29 16:33:45Z nasinha $
+# $Id: BEXPServer.py 532 2021-06-29 16:33:45Z nasinha $
 
 
-import os
 import argparse
-import base64, json
-import logging, ast, threading
-import datetime, time, os, sys, shutil
+import ast
+import json
+import logging
+import os
+import sys
+import threading
+import time
+
 import cherrypy as HttpServer
+import paho.mqtt.client as mqtt
 from pymongo import MongoClient
 
 from BExpress.BaudExpress import BaudExpress
-from ProcessSequence.AsBuildFeed import AsBuiltFeed
-#from MoveTable import MoveTable
-
-import paho.mqtt.client as mqtt
 from config import ConfigItems
-#from ProcessSequence.Sequences import CommandSequence
+
+
+# from MoveTable import MoveTable
+# from ProcessSequence.Sequences import CommandSequence
 
 
 class BEXPServer(object):
@@ -50,16 +54,23 @@ class BEXPServer(object):
 
         # Setup Database IP
         self.database = '127.0.0.1'
+        port = 27017
         if database:
             self.database = database
-            self.client = MongoClient(self.database, 27017)
+            ## there is a port notation embedded
+            if ':' in database:
+                self.database, port = database.split(':')
+                port = int(port)
+
+            self.client = MongoClient(self.database, port)
+
             database = self.client['baudexpress']
             self.dblog = database['logs']
             self.dbreg = database['sntable']
             self.dbseq = database['sequences']
 
         # MQTT mqttclient
-        logging.info("MQTT logging started")
+        logging.info("MQTT logging started, {}".format(ConfigItems.mqtt['mqttserver']))
         self.mqttclient = mqtt.Client()
         self.mqttclient.on_connect = self.on_mqttconnect
         self.mqttclient.on_message = self.on_mqttmessage
@@ -347,26 +358,6 @@ class BEXPServer(object):
                                        scandata=scandata)
 
 
-    @HttpServer.expose
-    def getmovetable(self):
-        """
-        Gets Move PartNumbers
-        :return:
-        """
-        movetbl = MoveTable()
-        tbl = movetbl.getMoveTable()
-        for tbrow in tbl:
-            rowobj = tbrow.copy()
-            logging.info("TblRow: {}".format(tbrow))
-            prod = tbrow['SKU']
-            tbrow['scanlist'] = None
-
-
-            scanlist = self.getscanlist(partnumber=tbrow['SKU'])
-            if scanlist:
-                tbrow['scanlist'] = json.loads(scanlist)
-
-        return json.dumps(tbl)
 
 
 
@@ -438,15 +429,17 @@ if __name__ == '__main__':
     port = 9009
     www = os.path.join(os.getcwd(), 'ui_www')
     ipaddr = '0.0.0.0'
-    dbip = '10.24.114.242'
+    dbip = 'data.sinhamobility.com:28018'
+
     logpath = os.path.join(os.getcwd(), 'log', 'baudexpress-server.log')
     logdir = os.path.dirname(logpath)
+    os.makedirs(logdir, exist_ok=True)
 
     cascPath = os.path.abspath(os.getcwd())
 
     ap = argparse.ArgumentParser()
     ap.add_argument("-p", "--port", required=False, default=9005,
-                help="Port number to start HTTPServer." )
+                    help="Port number to start HTTPServer." )
 
     ap.add_argument("-i", "--ipaddress", required=False, default='127.0.0.1',
                 help="IP Address to start HTTPServer")

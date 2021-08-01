@@ -1,17 +1,25 @@
-#$Id: BaudExpress.py 536 2021-06-29 16:52:49Z nasinha $
-import os, logging, sys, time
-import ast, threading, socket
+# $Id: BaudExpress.py 536 2021-06-29 16:52:49Z nasinha $
+import ast
+import datetime
+import json
+import logging
+import os
+import socket
+import sys
+import threading
+import time
+
 import paho.mqtt.client as mqtt
 from pymongo import MongoClient
-import json, datetime, logging
-from config import ConfigItems
-from TelnetAcessorLib.TelnetAccessor import TelnetAccessor
-from MoveTable import MoveTable
-from BExpress.AutomationSequence import ParseEngine
 
-#from ProcessSequence.Sequences import CommandSequence
-from ProcessSequence.SLXBoxes import SLXOS
+from BExpress.AutomationSequence import ParseEngine
+from MoveTable import MoveTable
 from ProcessSequence.AsBuildFeed import AsBuiltFeed
+# from ProcessSequence.Sequences import CommandSequence
+from ProcessSequence.SLXBoxes import SLXOS
+from TelnetAcessorLib.TelnetAccessor import TelnetAccessor
+from config import ConfigItems
+
 
 # noinspection SpellCheckingInspection
 
@@ -500,14 +508,3 @@ if __name__ == '__main__':
     logging.getLogger().addHandler(handler)
 
     bcode = BaudExpress(mongodb='10.24.114.242')
-    scandata = {
-
-            }
-    #bcode.baudoperation(serialnumber='1908Q-20179', mqttid='console1', console='10.31.221.215:3010')
-    bcode.baudoperation(serialnumber='1908Q-20179', mqttid='console1', console='134.141.248.18:5008')
-    #bcode.baudoperation(serialnumber='1938Q-20011', mqttid='1938Q-20011', console='10.31.221.216:3002')
-
-
-
-
-    bcode.shutdown()

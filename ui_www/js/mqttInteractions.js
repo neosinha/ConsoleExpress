@@ -1,6 +1,6 @@
 
 var mqtt = null;
-var mserver = '10.24.114.242:8083';
+var mserver = '23.94.247.11:8083';
 var mqttServer = mserver.split(':')[0];
 
 function mqttInit() {

@@ -4,15 +4,13 @@ Created on Oct 8, 2018
 @author: nasinha
 '''
 
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.firefox import firefox_profile
+import json
 import os
 import time
-import json
 
 import cherrypy as AgileServer
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
 
 
 class AgileQuery(object):
@@ -21,6 +19,7 @@ class AgileQuery(object):
     '''
 
     browser = None
+
     def __init__(self):
         '''
         Constructor
@@ -40,7 +39,7 @@ class AgileQuery(object):
 
         # self.browser = webdriver.Safari()
         time.sleep(2)
-        self.browser.get("https://agileplm.extremenetworks.com/Agile/default/login-cms.jsp")
+        self.browser.get("https://agileplm..jsp")
         self.login_handler()
         print("Windows: %s" % (len(self.browser.window_handles)))
         maxidx = len(self.browser.window_handles) -1
