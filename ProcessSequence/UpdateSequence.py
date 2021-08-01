@@ -1,12 +1,9 @@
+import json
+import logging
+import os
+import sys
 
-import os, logging, sys, time
-import ast, threading, socket
-import paho.mqtt.client as mqtt
 from pymongo import MongoClient
-import json, datetime, logging
-from config import ConfigItems
-from TelnetAcessorLib.TelnetAccessor import TelnetAccessor
-
 
 
 class SequenceUpdater(object):
@@ -24,6 +21,12 @@ class SequenceUpdater(object):
             # Connect to database
             dbase = mongodb
             logging.info("Connecting to Mongo Instance at %s" % (dbase))
+            ## there is a port notation embedded
+            if ':' in mongodb:
+                self.database, port = mongodb.split(':')
+                port = int(port)
+
+            self.client = MongoClient(self.database, port)
             self.client = MongoClient(dbase, 27017)
             database = self.client['baudexpress']
             self.dbcol = database['sequences']
@@ -63,20 +66,14 @@ if __name__ == '__main__':
 
     basedir = os.path.join(os.getcwd(), 'sequences')
 
-    updtr = SequenceUpdater(mongodb='10.24.114.242')
+    updtr = SequenceUpdater(mongodb='data.sinhamobility.com:28018')
     for jsonfilex in os.listdir(basedir):
         if jsonfilex.endswith('json'):
             logging.info("JSON file {}:".format(jsonfilex))
             #updtr.uploader(jsonfile=os.path.join(basedir,jsonfilex))
 
-    jsonfile = os.path.join(os.getcwd(),'sequences', '8720-32C-DC-F.json')
-    updtr.uploader(jsonfile=jsonfile)
-    jsonfile = os.path.join(os.getcwd(), 'sequences', '8720-32C-DC-R.json')
+    jsonfile = os.path.join(os.getcwd(), 'sequences', 'NI-CER-2024C.json')
     updtr.uploader(jsonfile=jsonfile)
 
-    jsonfile = os.path.join(os.getcwd(), 'sequences', '8720-32C-AC-F.json')
-    updtr.uploader(jsonfile=jsonfile)
-    jsonfile = os.path.join(os.getcwd(), 'sequences', '8720-32C-AC-R.json')
-    updtr.uploader(jsonfile=jsonfile)
 
 

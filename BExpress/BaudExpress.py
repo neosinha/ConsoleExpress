@@ -14,9 +14,7 @@ from pymongo import MongoClient
 
 from BExpress.AutomationSequence import ParseEngine
 from MoveTable import MoveTable
-from ProcessSequence.AsBuildFeed import AsBuiltFeed
 # from ProcessSequence.Sequences import CommandSequence
-from ProcessSequence.SLXBoxes import SLXOS
 from TelnetAcessorLib.TelnetAccessor import TelnetAccessor
 from config import ConfigItems
 
@@ -38,8 +36,15 @@ class BaudExpress(object):
         if mongodb:
             # Connect to database
             dbase = mongodb
+            port = 27017
+            ## there is a port notation embedded
+            if ':' in mongodb:
+                dbase, port = mongodb.split(':')
+                port = int(port)
+
             logging.info("Connecting to Mongo Instance at %s" % (dbase))
-            self.client = MongoClient(dbase, 27017)
+            self.client = MongoClient(dbase, port)
+
             database = self.client['baudexpress']
             self.dbcol = database['logs']
             self.dbseq = database['sequences']
@@ -53,7 +58,7 @@ class BaudExpress(object):
             self.mqttclient = mqtt.Client()
             self.mqttclient.on_connect = self.on_mqttconnect
             self.mqttclient.on_message = self.on_mqttmessage
-
+            self.mqttc.username_pw_set("apiuser", "millionchamps")
             self.mqttclient.connect(ConfigItems.mqtt['mqttserver']['server'],
                                     ConfigItems.mqtt['mqttserver']['port'],
                                     60)
@@ -151,12 +156,7 @@ class BaudExpress(object):
         tsession = TelnetAccessor(mqtt_id=mqttid, debugFlag=True,
                                   mqttClient=self.mqttclient)
         tsession.open_console(console)
-        slxos = SLXOS(tsession=tsession, mqttid=mqttid, mqttclient=self.mqttclient, logger=logging)
-        slxos.loginHandler()
-        slxos.extarctChassis()
-        slxos.extarctVersion()
-        slxos.extarctPSU()
-        slxos.extarctFAN()
+
 
     def getDateTime(self):
         """
@@ -189,7 +189,7 @@ class BaudExpress(object):
         print("=== Log Path: {}".format(logdir) )
         self.logpath = os.path.join(logdir, '{}_{}.log'.format(serialnumber, tstamp) )
         self.flog = open(self.logpath, 'w')
-        versionarr = ConfigItems.svnrevid.split('Id:')[1]
+        versionarr = "100 200 300"
         self.scriptversion = versionarr.strip().split(" ")
         self.logappend("BaudExpress Rev-{}, Last updated {}".format(self.scriptversion[1], self.scriptversion[2]))
 
@@ -391,19 +391,18 @@ class BaudExpress(object):
 
                     self.dbcol.insert(dbobj)
             statusx = {'status': 'PASSED'}
-            #self.mqttclient.publish('{}/status'.format(mqttid), json.dumps(statusx))
+            # self.mqttclient.publish('{}/status'.format(mqttid), json.dumps(statusx))
             # self.mqttclient.publish(mqttid, json.dumps(resp['buffer']))
 
             self.logappend(msg="Writing ASBF file")
-            asbf = AsBuiltFeed(outputloc=os.path.join(self.loglocation, 'asbf'))
-            asbf.generateTag(skupn = partnumber ,systemModel=sysmodel, scandata=scanlist,
-                             asbfdefs=asbfdef )
-            asbf.writeXML()
-
+            # asbf = AsBuiltFeed(outputloc=os.path.join(self.loglocation, 'asbf'))
+            # asbf.generateTag(skupn = partnumber ,systemModel=sysmodel, scandata=scanlist,
+            #                 asbfdefs=asbfdef )
+            # asbf.writeXML()
 
             self.logappend(msg="Completed, exiting from threads")
             self.logclose(val_stat)
-            self.opsstatusfile(status=val_stat, scanlist=scanlist, systemmodel=sysmodel)
+            # self.opsstatusfile(status=val_stat, scanlist=scanlist, systemmodel=sysmodel)
 
         else:
             statusx = {'status': 'NOTFOUND', 'msg': 'ProcessSequence for {} was not found'.format(partnum)}

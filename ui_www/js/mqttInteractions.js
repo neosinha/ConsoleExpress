@@ -1,12 +1,12 @@
 
 var mqtt = null;
-var mserver = '23.94.247.11:8083';
+var mserver = '23.94.247.117:9083';
 var mqttServer = mserver.split(':')[0];
-
+var mqttPort = mserver.split(':')[1];
 function mqttInit() {
-	console.log("Initializing MQTT Server");
+	console.log("Initializing MQTT Server ("+mqttServer+", " +mqttPort);
 	
-	mqtt = new Paho.MQTT.Client(mqttServer, Number(8083), '', 
+	mqtt = new Paho.MQTT.Client(mqttServer, Number(mqttPort), '',
 							'cl'+getEpoch() ); 
 	
 	mqtt.onMessageArrived = mqttOnMessage;
@@ -16,7 +16,9 @@ function mqttInit() {
 }
 
 function mqttConnect() {
-	var options = { timeout: 300, 
+	var options = { timeout: 300,
+	        userName: 'apiuser',
+            password: 'millionchamps',
 			onSuccess: onConnect, 
 			onFailure: mqttFailure 
 			};
@@ -135,6 +137,6 @@ function sendCmd(cmd) {
 
 
 function mqttFailure() {
-	console.log("Connection failed..");
+	console.log("MQTT Connection failed..("+mqttServer+','+ mqttPort+')');
 	
 }

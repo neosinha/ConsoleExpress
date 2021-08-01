@@ -1,0 +1,79 @@
+
+{
+  "sku": "NI-CER-2024C",
+  "about": {
+    "image": "NI-CER-2024C.png",
+    "text": "NI-2024C"
+  },
+  "parseobjs": [
+    {
+      "key": "swversion",
+      "regex": "IronWare.:Version (.*).Copyright",
+      "expect": null
+    },
+    {
+      "key": "chassis_pn",
+      "regex": "System.*Part.#:(.*)\\)",
+      "expect": null
+    },
+    {
+      "key": "chassis_sn",
+      "regex": "System.*.Serial.#:(.*),",
+      "expect": "scanned.chassis_sn",
+      "expect": null
+    }
+  ],
+  "commandset": [
+    {
+      "cmd": "\n\r",
+      "prompt": [
+        "NetIron.*2024C"
+      ],
+      "timeout": 10,
+      "usermsg": {
+        "text": "Please ensure that unit is powered on",
+        "image": null
+      }
+    },
+    {
+      "cmd": "en\n\r",
+      "prompt": [
+        "NetIron.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show version\n\r",
+      "prompt": [
+        "NetIron.*#"
+      ],
+      "timeout": 10
+    },
+    {
+      "cmd": "show chassis\n\r",
+      "prompt": [
+        "NetIron.*#"
+      ],
+      "timeout": 10
+    }
+  ] ,
+            "scanlist" : [
+                           {"Console" : { "id" : "iconsole", "value" : "10.31.221.215:3010", "telnet" : true }},
+              {
+                "CHASSIS SN": {
+                  "id": "chassis_sn",
+                  "value": "TH012040Q-40008",
+                  "SerialNumber": true
+                }
+              }
+                    ],
+            "AsBuiltFeedMap" : {
+                            "top_pn" : "chassis_pn",
+                            "top_sn" : "chassis_sn",
+                            "swversion" : "swversion",
+                            "components": []
+                    }
+
+    }
+
+

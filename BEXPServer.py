@@ -53,16 +53,18 @@ class BEXPServer(object):
             self.logexport = logexport
 
         # Setup Database IP
-        self.database = '127.0.0.1'
+        dbip = '127.0.0.1'
         port = 27017
         if database:
-            self.database = database
+            dbip = database
+
             ## there is a port notation embedded
             if ':' in database:
-                self.database, port = database.split(':')
+                dbip, port = database.split(':')
                 port = int(port)
 
-            self.client = MongoClient(self.database, port)
+            self.dbloc = "{}:{}".format(dbip, port)
+            self.client = MongoClient(dbip, port)
 
             database = self.client['baudexpress']
             self.dblog = database['logs']
@@ -75,6 +77,7 @@ class BEXPServer(object):
         self.mqttclient.on_connect = self.on_mqttconnect
         self.mqttclient.on_message = self.on_mqttmessage
 
+        self.mqttclient.username_pw_set("apiuser", "millionchamps")
         self.mqttclient.connect(ConfigItems.mqtt['mqttserver']['server'],
                                 ConfigItems.mqtt['mqttserver']['port'],
                                 60)
@@ -351,7 +354,7 @@ class BEXPServer(object):
         :param serialnumber:
         :return:
         """
-        boper = BaudExpress(mqttclient=self.mqttclient, mongodb=self.database, logexport=self.logexport)
+        boper = BaudExpress(mqttclient=self.mqttclient, mongodb=self.dbloc, logexport=self.logexport)
         sysmodel = boper.baudoperation(mqttid=serialnumber, console=console,
                                        serialnumber=serialnumber,
                                        partnumber=partnumber,
