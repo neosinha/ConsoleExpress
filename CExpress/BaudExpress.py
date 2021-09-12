@@ -1,16 +1,23 @@
-#$Id: BaudExpressJson.py 525 2021-06-18 16:34:25Z nasinha $
-import os, logging, sys, time
-import ast, threading, socket
+# $Id: BaudExpress.py 536 2021-06-29 16:52:49Z nasinha $
+import ast
+import datetime
+import json
+import logging
+import os
+import socket
+import sys
+import threading
+import time
+
 import paho.mqtt.client as mqtt
 from pymongo import MongoClient
-import json, datetime, logging
-from config import ConfigItems
-from TelnetAcessorLib.TelnetAccessor import TelnetAccessor
-from MoveTable import MoveTable
 
-from ProcessSequence.Sequences import CommandSequence
-from ProcessSequence.SLXBoxes import SLXOS
-from ProcessSequence.AsBuildFeed import AsBuiltFeed
+from CExpress.AutomationSequence import ParseEngine
+from MoveTable import MoveTable
+# from ProcessSequence.Sequences import CommandSequence
+from TelnetAcessorLib.TelnetAccessor import TelnetAccessor
+from config import ConfigItems
+
 
 # noinspection SpellCheckingInspection
 
@@ -22,17 +29,25 @@ class BaudExpress(object):
 
     def __init__(self, mqttclient=None, mongodb=None, logexport=None):
         '''
-        Constructor for BExpress Core
+        Constructor for CExpress Core
         '''
-        logging.info("BExpress Core")
+        logging.info("CExpress Core")
         dbase = '127.0.0.1'
         if mongodb:
             # Connect to database
             dbase = mongodb
+            port = 27017
+            ## there is a port notation embedded
+            if ':' in mongodb:
+                dbase, port = mongodb.split(':')
+                port = int(port)
+
             logging.info("Connecting to Mongo Instance at %s" % (dbase))
-            self.client = MongoClient(dbase, 27017)
+            self.client = MongoClient(dbase, port)
+
             database = self.client['baudexpress']
             self.dbcol = database['logs']
+            self.dbseq = database['sequences']
 
 
         if mqttclient:
@@ -43,7 +58,7 @@ class BaudExpress(object):
             self.mqttclient = mqtt.Client()
             self.mqttclient.on_connect = self.on_mqttconnect
             self.mqttclient.on_message = self.on_mqttmessage
-
+            self.mqttc.username_pw_set("apiuser", "millionchamps")
             self.mqttclient.connect(ConfigItems.mqtt['mqttserver']['server'],
                                     ConfigItems.mqtt['mqttserver']['port'],
                                     60)
@@ -141,12 +156,7 @@ class BaudExpress(object):
         tsession = TelnetAccessor(mqtt_id=mqttid, debugFlag=True,
                                   mqttClient=self.mqttclient)
         tsession.open_console(console)
-        slxos = SLXOS(tsession=tsession, mqttid=mqttid, mqttclient=self.mqttclient, logger=logging)
-        slxos.loginHandler()
-        slxos.extarctChassis()
-        slxos.extarctVersion()
-        slxos.extarctPSU()
-        slxos.extarctFAN()
+
 
     def getDateTime(self):
         """
@@ -179,7 +189,7 @@ class BaudExpress(object):
         print("=== Log Path: {}".format(logdir) )
         self.logpath = os.path.join(logdir, '{}_{}.log'.format(serialnumber, tstamp) )
         self.flog = open(self.logpath, 'w')
-        versionarr = ConfigItems.svnrevid.split('Id:')[1]
+        versionarr = "100 200 300"
         self.scriptversion = versionarr.strip().split(" ")
         self.logappend("BaudExpress Rev-{}, Last updated {}".format(self.scriptversion[1], self.scriptversion[2]))
 
@@ -257,10 +267,29 @@ class BaudExpress(object):
         logging.info("Scanned Data: {}".format(json.dumps(scanlist, indent=2)))
         self.logappend(msg="Scanned Info: {}".format(json.dumps(scanlist, indent=2)))
 
-        if partnum in CommandSequence:
-            cmdefs =CommandSequence[partnum]['commandset']
-            parseobj = CommandSequence[partnum]['parseobj']
-            asbfdef = CommandSequence[partnum]['AsBuiltFeedMap']
+        skuquery = {'sku' : partnumber}
+        skuseq = self.dbseq.find_one(skuquery, {'_id' : 0})
+
+        if skuseq:
+            #cmdefs = CommandSequence[partnum]['commandset']
+            ##parseobj = CommandSequence[partnum]['parseobj']
+            #asbfdef = CommandSequence[partnum]['AsBuiltFeedMap']
+
+            cmdefs = skuseq['commandset']
+            parseobjdefs = skuseq['parseobjs']
+            asbfdef = skuseq['AsBuiltFeedMap']
+
+            parseobj = None
+            for idx, pobj in enumerate(parseobjdefs):
+                print("PObj[{}] : {}".format(idx, pobj))
+                #{"key": "swversion", "regex": "Firmware.name:(.*)", "expect": "20.1.1"}
+
+                if idx == 0:
+                    parseobj = ParseEngine(key=pobj['key'], regex=pobj['regex'], expect=pobj['expect'])
+                elif parseobj:
+                    parseobj.addparser(key=pobj['key'], regex=pobj['regex'], expect=pobj['expect'])
+
+
 
             for el in parseobj.getkeys():
                 sysmodel[el] = None
@@ -293,6 +322,7 @@ class BaudExpress(object):
 
             val_stat = {'serial': serialnumber, 'status': 'FAILED', 'msg': None}
             for pkey in parseobj.getkeys():
+                print("Keys: {}".format(pkey) )
                 poutx = parseobj.extract(buffstring=buff, keys=[pkey] )
                 if poutx[pkey]:
                     valx = poutx[pkey].strip()
@@ -300,7 +330,9 @@ class BaudExpress(object):
 
 
             dbobj = {'UnitIdenfitier': uutid, 'systemmodel' : sysmodel, 'scandata' : json.loads(scandata)}
-            self.dbcol.insert(dbobj)
+            #self.dbcol.insert(dbobj)
+            print("===System Model====\n".format(sysmodel))
+
 
             self.logappend(msg="====\n\n\n")
             msgx = None
@@ -359,19 +391,18 @@ class BaudExpress(object):
 
                     self.dbcol.insert(dbobj)
             statusx = {'status': 'PASSED'}
-            #self.mqttclient.publish('{}/status'.format(mqttid), json.dumps(statusx))
+            # self.mqttclient.publish('{}/status'.format(mqttid), json.dumps(statusx))
             # self.mqttclient.publish(mqttid, json.dumps(resp['buffer']))
 
             self.logappend(msg="Writing ASBF file")
-            asbf = AsBuiltFeed(outputloc=os.path.join(self.loglocation, 'asbf'))
-            asbf.generateTag(systemModel=sysmodel, scandata=scanlist,
-                             asbfdefs=asbfdef )
-            asbf.writeXML()
-
+            # asbf = AsBuiltFeed(outputloc=os.path.join(self.loglocation, 'asbf'))
+            # asbf.generateTag(skupn = partnumber ,systemModel=sysmodel, scandata=scanlist,
+            #                 asbfdefs=asbfdef )
+            # asbf.writeXML()
 
             self.logappend(msg="Completed, exiting from threads")
             self.logclose(val_stat)
-            self.opsstatusfile(status=val_stat, scanlist=scanlist, systemmodel=sysmodel)
+            # self.opsstatusfile(status=val_stat, scanlist=scanlist, systemmodel=sysmodel)
 
         else:
             statusx = {'status': 'NOTFOUND', 'msg': 'ProcessSequence for {} was not found'.format(partnum)}
@@ -476,14 +507,3 @@ if __name__ == '__main__':
     logging.getLogger().addHandler(handler)
 
     bcode = BaudExpress(mongodb='10.24.114.242')
-    scandata = {
-
-            }
-    #bcode.baudoperation(serialnumber='1908Q-20179', mqttid='console1', console='10.31.221.215:3010')
-    bcode.baudoperation(serialnumber='1908Q-20179', mqttid='console1', console='134.141.248.18:5008')
-    #bcode.baudoperation(serialnumber='1938Q-20011', mqttid='1938Q-20011', console='10.31.221.216:3002')
-
-
-
-
-    bcode.shutdown()

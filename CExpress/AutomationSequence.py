@@ -4,8 +4,8 @@ Created on Mar 30, 2017
 @author: nsinha
 '''
 
-from collections import OrderedDict
 import re
+from collections import OrderedDict
 
 
 class ProcessSequenceStep(object):

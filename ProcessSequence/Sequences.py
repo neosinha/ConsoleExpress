@@ -1,7 +1,7 @@
 svnrevision="$Id: Sequences.py 525 2021-06-18 16:34:25Z nasinha $"
 
 
-from BExpress.AutomationSequence import ParseEngine
+from CExpress.AutomationSequence import ParseEngine
 
 CommandSequence = {}
 StructureDef = {}

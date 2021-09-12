@@ -13,9 +13,9 @@ class SequenceUpdater(object):
 
     def __init__(self, mqttclient=None, mongodb=None, logexport=None):
         '''
-        Constructor for BExpress Core
+        Constructor for CExpress Core
         '''
-        logging.info("BExpress Sequence Updater")
+        logging.info("CExpress Sequence Updater")
         dbase = '127.0.0.1'
         if mongodb:
             # Connect to database

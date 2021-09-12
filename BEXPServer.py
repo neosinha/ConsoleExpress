@@ -14,7 +14,7 @@ import cherrypy as HttpServer
 import paho.mqtt.client as mqtt
 from pymongo import MongoClient
 
-from BExpress.BaudExpress import BaudExpress
+from CExpress.BaudExpress import BaudExpress
 from config import ConfigItems
 
 
@@ -67,6 +67,7 @@ class BEXPServer(object):
             self.client = MongoClient(dbip, port)
 
             database = self.client['baudexpress']
+            self.dbusers = database['users']
             self.dblog = database['logs']
             self.dbreg = database['sntable']
             self.dbseq = database['sequences']
@@ -77,7 +78,7 @@ class BEXPServer(object):
         self.mqttclient.on_connect = self.on_mqttconnect
         self.mqttclient.on_message = self.on_mqttmessage
 
-        self.mqttclient.username_pw_set("apiuser", "millionchamps")
+        # self.mqttclient.username_pw_set("apiuser", "millionchamps")
         self.mqttclient.connect(ConfigItems.mqtt['mqttserver']['server'],
                                 ConfigItems.mqtt['mqttserver']['port'],
                                 60)
@@ -97,7 +98,75 @@ class BEXPServer(object):
 
         return open(os.path.join(self.staticdir, "index.html"))
 
+    @HttpServer.expose
+    def createuser(self, firstname, lastname, email, address1, address2, city, state, country, zipcode, password):
+        """
+        Registers a New User
 
+        :param userid:
+        :param firstname:
+        :param lastname:
+        :param email:
+        :param address1:
+        :param address2:
+        :param city:
+        :param state:
+        :param country:
+        :param zipcode:
+        :return:
+        """
+        uquery = {'firstname': firstname,
+                  'lastname': lastname,
+                  'address1': address1,
+                  'address2': address2,
+                  'city': city,
+                  'state': state,
+                  'country': country,
+                  'zipcode': zipcode,
+                  'email': email,
+                  'password': password
+                  }
+
+        userdb = self.dbase['users']
+        urecord = uquery.copy()
+        urecord['created'] = self.epoch()
+        emailquery = {'email': uquery['email']}
+        uqresult = userdb.find_one(emailquery)
+
+        result = {'exists': False, 'userid': None}
+        if uqresult:
+            result['exists'] = True
+            result['userid'] = str(uqresult['_id'])
+            logging.info("== Record Exists. Skipping update. {}".format(uqresult))
+        else:
+            logging.info("== Record does not exist, creating entry ")
+            uqresult = userdb.insert_one(urecord)
+            uqresult = userdb.find_one(urecord)
+            result['userid'] = str(uqresult['_id'])
+
+        return json.dumps(result)
+
+    @HttpServer.expose
+    def loginuser(self, email, password):
+        """
+        :param email:
+        :return:
+        """
+        userdb = self.dbase['users']
+        emailquery = {'email': email}
+        uqresult = userdb.find_one(emailquery, {'_id': 1, 'password': 1})
+
+        result = {'exists': False, 'userid': None, 'auth': False}
+        if uqresult:
+            print("Rec: {}".format(uqresult))
+            result['exists'] = True
+            result['userid'] = str(uqresult['_id'])
+            if uqresult['password'] == password:
+                result['auth'] = True
+                userdata = self.getuserdata(result['userid'])
+                result['data'] = userdata
+
+        return json.dumps(result)
 
     @HttpServer.expose
     def oobaview(self):
@@ -285,10 +354,10 @@ class BEXPServer(object):
     @HttpServer.expose
     def baudoperation(self, console=None, serialnumber=None, partnumber=None, scandata=None):
         """
-        Perform BExpress Operation
+        Perform CExpress Operation
         :return:
         """
-        logging.info("BaudExp request for PN:{}/ SN:{} on Console:{}".format(partnumber, serialnumber, console) )
+        logging.info("BaudExp request for PN:{}/ SN:{} on Console:{}".format(partnumber, serialnumber, console))
         logging.info("BaudExp Scandata:  {}".format(scandata) )
         consolex = None
         serialNumberScan = None
