@@ -55,11 +55,11 @@ class AgileQuery(object):
         """
         username = self.browser.find_element_by_id("j_username")
         username.clear()
-        username.send_keys("nasinha")
+        username.send_keys("username")
 
         passwd = self.browser.find_element_by_id("j_password")
         passwd.clear()
-        passwd.send_keys("Funding2021")
+        passwd.send_keys("password")
 
         print("Windows: %s" % (len(self.browser.window_handles)))
         login = self.browser.find_element_by_id("login")
